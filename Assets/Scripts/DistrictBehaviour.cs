@@ -4,14 +4,22 @@ using System.Collections;
 public class DistrictBehaviour : MonoBehaviour {
 
 	public iTween.EaseType easeType;
-
+	public DistrictData districtData
+	{
+		get {return _districtData;}
+		set {
+			_districtData = value;
+			transform.GetComponent<DistrictHUD>().updateDistrictData(_districtData);
+		}
+	}
 	public Shader toonShader;
 	private Shader originalShader;
 
-	public Signal onClickedMe = new Signal(typeof(Vector3));
+	public Signal clickMe = new Signal(typeof(DistrictBehaviour));
 
 	private bool isActive;
 	private tk2dSprite sprite;
+	private DistrictData _districtData;
 
 	// Use this for initialization
 	void Start () {
@@ -40,7 +48,7 @@ public class DistrictBehaviour : MonoBehaviour {
 			"onupdatetarget", this.gameObject
 			));
 
-		onClickedMe.Invoke(gameObject.transform.position);
+		clickMe.Invoke(this);
 	}
 
 	void setSpriteColor(Color color){

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a089b82a703454ca8bfa2c76f961a224, type: 3}
+  m_Name: Summer Island
+  m_EditorClassIdentifier: 
+  townName: Summer Island
+  districts:
+  - {fileID: 11400000, guid: eaca1a7651cdf41eeb3a489573b67834, type: 2}
+  - {fileID: 11400000, guid: a3e0a8818050a4ab4a4f9964522985e6, type: 2}
+  - {fileID: 11400000, guid: 446e81e59f5964a35adbaf102d572701, type: 2}
+  - {fileID: 11400000, guid: 016847bfd202b4244986f3b2eae53a67, type: 2}
+  - {fileID: 11400000, guid: e0ae6524e01874a71b251abcb2fc3bce, type: 2}
+  - {fileID: 11400000, guid: b66dd7e11b7944952bde98c1c4b5849a, type: 2}
+  - {fileID: 11400000, guid: 985b81d3f3fcf42bea88022cfcf2c5b7, type: 2}
+  - {fileID: 11400000, guid: 4cf7552ef2f7847a9ab52f4929f41d04, type: 2}
+  - {fileID: 11400000, guid: 69831a35ecbc24437933e0929e538e20, type: 2}
+  - {fileID: 11400000, guid: 75fe60e6ebe7440c0bd4961ec87004d4, type: 2}
+  - {fileID: 11400000, guid: 860b1db0559f44a13b1d986605e41d8a, type: 2}

@@ -9,7 +9,6 @@ GameObject:
   m_Component:
   - 4: {fileID: 400000}
   - 114: {fileID: 11400000}
-  - 114: {fileID: 11400002}
   - 114: {fileID: 11400006}
   - 33: {fileID: 3300000}
   - 23: {fileID: 2300002}
@@ -101,9 +100,9 @@ Renderer:
   m_UseLightProbes: 0
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_SortingLayer: 0
+  m_SortingLayer: 1
   m_SortingOrder: 0
-  m_SortingLayerID: 0
+  m_SortingLayerID: 718075967
 --- !u!33 &3300000
 MeshFilter:
   m_ObjectHideFlags: 1
@@ -160,23 +159,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   easeType: 22
+  districtData: {fileID: 11400000, guid: 985b81d3f3fcf42bea88022cfcf2c5b7, type: 2}
   toonShader: {fileID: 4800000, guid: 36866070eaac641a89ecd13726889551, type: 3}
-  onClick:
+  onClickedMe:
     target: {fileID: 0}
-    method: onClick
-    argType: 
---- !u!114 &11400002
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100000}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1472446eee3e74061a2b2b87852bb119, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  districtName: Test Town
+    method: 
+    argType: UnityEngine.Vector3
 --- !u!114 &11400004
 MonoBehaviour:
   m_ObjectHideFlags: 1
