@@ -87,6 +87,7 @@ public class DistrictManager : MonoBehaviour
 	[Signal]
 	void onSortieClicked()
 	{
+		DontDestroyOnLoad(transform.gameObject);
 		Application.LoadLevel("Sortie");
 	}
 }
