@@ -5,7 +5,7 @@ public class DistrictManager : MonoBehaviour
 {
 	public GameObject districtDescriptionWindow;
 	public iTween.EaseType easeType;
-	public Camera gameCamera
+	public Camera gameCamera;
 
 	public TownData townData;
 		
