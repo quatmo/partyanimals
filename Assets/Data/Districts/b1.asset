@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Name: b1
   m_EditorClassIdentifier: 
   id: b1
-  districtName: St. Isidore
+  districtName: St Isidore
   description: A farmer's place
   winnabilityA: 0
   winnabilityB: 0
-  totalPopulation: 1000
+  totalPopulation: 1100
   votingPopulation: 500

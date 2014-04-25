@@ -9,6 +9,7 @@ public class DistrictBehaviour : MonoBehaviour {
 		get {return _districtData;}
 		set {
 			_districtData = value;
+			Debug.Log ("Updating district data");
 			transform.GetComponent<DistrictHUD>().updateDistrictData(_districtData);
 		}
 	}

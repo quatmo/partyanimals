@@ -17,6 +17,9 @@ public class DistrictManager : MonoBehaviour
 	void Start ()
 	{
 		normalCameraSize = gameCamera.orthographicSize;
+		GameManager.GetInstance().initialize(townData);
+
+		townData = GameManager.GetInstance().townData;
 		districts = new GameObject[11];
 		//load all gameobjects on screen
 		//loop through towndata array
@@ -51,6 +54,7 @@ public class DistrictManager : MonoBehaviour
 			));
 		Debug.Log(districtPosition);
 		Debug.Log (districtData.districtName);
+		GameManager.GetInstance().setSelectedDistrict(districtData);
 		districtDescriptionWindow.GetComponent<DistrictWindowDisplay>().districtData = districtData;
 		iTween.MoveTo(gameCamera.gameObject, iTween.Hash (
 			"x", districtPosition.x,

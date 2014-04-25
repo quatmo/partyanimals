@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Name: t3
   m_EditorClassIdentifier: 
   id: t3
-  districtName: Red Light
+  districtName: Red Lights
   description: Red light district
   winnabilityA: 0
   winnabilityB: 0

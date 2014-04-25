@@ -25,6 +25,14 @@ MonoBehaviour:
     dataGUID: 
     managed: 0
     loadable: 0
+  - assetGUID: 40ff699129af44874b180da0797121bd
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  - assetGUID: c46ab4ae8b1ea4fcb9fc2a641065cd98
+    dataGUID: 
+    managed: 0
+    loadable: 0
   fontIndex:
   - assetGUID: 063b15d80dbb4604d890600a64c79cf8
     dataGUID: e7a6b09a73c6b2b4f8060096ddbd3b5e
@@ -747,6 +755,76 @@ MonoBehaviour:
     spriteTextureTimeStamps:
     - 1391435053
     - 1393858874
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: CarabaoSprites
+    spriteCollectionGUID: 20df62d4f0d954364a68d117f552a761
+    spriteCollectionDataGUID: eda3da9d8e1e2418d89769f677ec169c
+    spriteNames:
+    - sortie-kalabaw_06
+    - sortie-kalabaw_07
+    - sortie-kalabaw_09
+    - sortie-kalabaw_19
+    - sortie-kalabaw_15
+    - sortie-kalabaw_17
+    - sortie-kalabaw_10
+    - sortie-kalabaw_11
+    - sortie-kalabaw_14
+    - sortie-kalabaw_18
+    - sortie-kalabaw_16
+    - sortie-kalabaw_02
+    - sortie-kalabaw_20
+    - sortie-kalabaw_12
+    - sortie-kalabaw_05
+    - sortie-kalabaw_01
+    - sortie-kalabaw_04
+    - sortie-kalabaw_13
+    - sortie-kalabaw_03
+    - sortie-kalabaw_08
+    spriteTextureGUIDs:
+    - 1018ce5a300d94a5c800e92b11863586
+    - 2bfb7103a5235400b8adaf3d8453053f
+    - 3265a93e018e14e31b3934d2c1a4a73f
+    - 331f0a6128d8849ee905bba19c691357
+    - 3892ba08e17cc45408321050952d2377
+    - 3e726bb2cd9bb48368c73b3779ac316b
+    - 4d492e9143eb74d3b8c35db5e22dc736
+    - 5b0fee51b9bc34f278ae5e6aaab116ac
+    - 61166dd3479e0430984eaeca98d7e3db
+    - 87320dd9d72044021a1c762c38f77944
+    - 8c994b084f1be4bafa37426c07d24dc8
+    - 9a708bad7b42540d1abfead0157fa159
+    - 9b418b4f083eb4b5c851f82aa4c65892
+    - a6e7b0be8742b48958345e99551684a0
+    - b6a30e48da3454bc2890fcd97fc3a238
+    - c0689d6403937440585098f2da9ef942
+    - c7aa61ba0440544958e56d9936901c58
+    - e07fbc14839cf434c98e9259d6386264
+    - e10db3ce6ffdf431781af2154f74d90d
+    - fbf04a3b7e24244768e944f89ddb6326
+    spriteTextureTimeStamps:
+    - 1398454043
+    - 1398454043
+    - 1398454044
+    - 1398454049
+    - 1398454047
+    - 1398454048
+    - 1398454044
+    - 1398454045
+    - 1398454046
+    - 1398454048
+    - 1398454047
+    - 1398454041
+    - 1398454049
+    - 1398454045
+    - 1398454042
+    - 1398454041
+    - 1398454042
+    - 1398454046
+    - 1398454041
+    - 1398454044
     managedSpriteCollection: 0
     loadable: 0
     assetName: 
