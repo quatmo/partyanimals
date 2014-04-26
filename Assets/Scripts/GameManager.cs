@@ -40,7 +40,7 @@ public class GameManager {
 
 	public void sortieUpdate(){
 		//do update selected district
-		Debug.Log("Update district now" + _selectedDistrict.districtName);
+		//Debug.Log("Update district now" + _selectedDistrict.districtName);
 	}
 	
 }
