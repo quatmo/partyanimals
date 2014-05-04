@@ -10,6 +10,8 @@ public class GameManager {
 
 	private DistrictData _selectedDistrict;
 
+	public bool IsNewGame = true;
+
 	public TownData townData{
 		get {return _townData;}
 	}
@@ -25,7 +27,8 @@ public class GameManager {
 
 		return _instance;
 	}
-	
+
+
 	public void initialize(TownData townData){
 		if(!_townData){
 			_townData = townData;
