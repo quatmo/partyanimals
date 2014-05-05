@@ -2,10 +2,9 @@
 using System.Collections;
 
 public class TurnManager : MonoBehaviour {
-
 	private CameraController cameraController;
 	private DistrictManager districtManager;
-
+	
 	// Use this for initialization
 	void Start () {
 		cameraController = GetComponent<CameraController>();
