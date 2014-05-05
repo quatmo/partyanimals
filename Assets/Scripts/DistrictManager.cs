@@ -5,18 +5,17 @@ public class DistrictManager : MonoBehaviour
 {
 	public GameObject districtDescriptionWindow;
 	public iTween.EaseType easeType;
-	public Camera gameCamera;
-
+	
 	public TownData townData;
 		
 	private GameObject[] districts;
+	private CameraController cameraController;
 
-	private float normalCameraSize;
-	
 	// Use this for initialization
 	void Start ()
 	{
-		normalCameraSize = gameCamera.orthographicSize;
+		cameraController = GetComponent<CameraController>();
+
 		GameManager.GetInstance().initialize(townData);
 
 		townData = GameManager.GetInstance().townData;
@@ -40,59 +39,21 @@ public class DistrictManager : MonoBehaviour
 
 	}
 
-	[Signal]
-	void onClick(DistrictBehaviour districtBehaviour)
-	{	
-		Vector3 districtPosition = districtBehaviour.gameObject.transform.position;
-		DistrictData districtData = districtBehaviour.districtData;
-		iTween.ValueTo(gameCamera.gameObject, iTween.Hash(
-			"time", 0.6f,
-			"from", gameCamera.orthographicSize,
-			"to", 3,
-			"onupdate", "setZoomCamera",
-			"onupdatetarget", this.gameObject
-			));
-		Debug.Log(districtPosition);
-		Debug.Log (districtData.districtName);
-		GameManager.GetInstance().setSelectedDistrict(districtData);
-		districtDescriptionWindow.GetComponent<DistrictWindowDisplay>().districtData = districtData;
-		iTween.MoveTo(gameCamera.gameObject, iTween.Hash (
-			"x", districtPosition.x,
-			"y", districtPosition.y,
-			"time", 0.6f,
-			"easetype", easeType));
+	public void showDistrictDataWindow(DistrictData data){
+		districtDescriptionWindow.GetComponent<DistrictWindowDisplay>().districtData = data;
 		iTween.MoveTo(districtDescriptionWindow, 
-	                iTween.Hash ("y", 3.45, "time", .3, "easetype", easeType));
-	//Application.LoadLevel("Sortie");
+		              iTween.Hash ("y", 3.45, "time", .3, "easetype", easeType));
 	}
 
 	[Signal]
 	void onCloseDistrictWindow()
 	{
-		iTween.ValueTo(gameCamera.gameObject, iTween.Hash(
-			"time", 0.6f,
-			"from", gameCamera.orthographicSize,
-			"to", normalCameraSize,
-			"onupdate", "setZoomCamera",
-			"onupdatetarget", this.gameObject
-			));
-		iTween.MoveTo(gameCamera.gameObject, iTween.Hash (
-			"x", 0,
-			"y", 0,
-			"time", 0.6f,
-			"easetype", easeType));
+		cameraController.zoomOut();
+		cameraController.tweenTo(0f, 0f);
+
 		iTween.MoveTo(districtDescriptionWindow, 
 	                iTween.Hash ("y", 7, "time", .3, "easetype", easeType));
 	}
 
-	void setZoomCamera(float p){
-		gameCamera.orthographicSize = p;
-	}
-
-	[Signal]
-	void onSortieClicked()
-	{
-		Application.LoadLevel("Sortie");
-	}
 }
 
