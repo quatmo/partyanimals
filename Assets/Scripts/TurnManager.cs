@@ -35,6 +35,9 @@ public class TurnManager : MonoBehaviour {
 
 		//what state of the game is this?
 
+		//if in start of game
+
+
 		//if in my turn
 		districtManager.showDistrictDataWindow(districtData);
 	}
