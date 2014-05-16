@@ -18,6 +18,7 @@ public class SortieManager : MonoBehaviour {
 		for(int i = 0; i < 10; i++){
 			Vector3 pos = transform.position;
 			pos.x += .5f * (float)i;
+			pos.y += -5f;
 			AudienceAIController cbao = (AudienceAIController) Instantiate(carabao, pos, transform.rotation);
 			carabaos[i] = cbao;
 			cbao.transform.parent = transform;
