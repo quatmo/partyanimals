@@ -5,12 +5,12 @@ PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   AndroidProfiler: 0
-  defaultScreenOrientation: 0
-  targetDevice: 2
+  defaultScreenOrientation: 2
+  targetDevice: 1
   targetGlesGraphics: 1
   targetResolution: 0
   accelerometerFrequency: 60
-  companyName: DefaultCompany
+  companyName: grindstonegames
   productName: PartyAnimals
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
@@ -109,7 +109,11 @@ PlayerSettings:
   AndroidKeystoreName: 
   AndroidKeyaliasName: 
   resolutionDialogBanner: {fileID: 0}
-  m_BuildTargetIcons: []
+  m_BuildTargetIcons:
+  - m_BuildTarget: 
+    m_Icons:
+    - m_Icon: {fileID: 2800000, guid: d4b13e5fdf4b0f540be8e00a364ddd35, type: 3}
+      m_Size: 128
   m_BuildTargetBatching: []
   webPlayerTemplate: APPLICATION:Default
   m_TemplateCustomTags: {}
@@ -148,7 +152,10 @@ PlayerSettings:
   ps3TrialMode: 0
   flashStrippingLevel: 2
   spritePackerPolicy: 
-  scriptingDefineSymbols: {}
+  scriptingDefineSymbols:
+    1: Home;District;Window
+    2: Home;District;Window
+    4: Home;District;Window
   metroPackageName: PartyAnimals
   metroPackageLogo: 
   metroPackageVersion: 

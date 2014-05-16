@@ -42,30 +42,30 @@ MonoBehaviour:
   materialIdsValid: 1
   needMaterialInstance: 0
   spriteDefinitions:
-  - name: BG
+  - name: bg-beach
     boundsData:
-    - {x: 0, y: 0, z: 0}
-    - {x: 10.2399998, y: 7.67999983, z: 0}
+    - {x: -.38499999, y: -.0499998331, z: 0}
+    - {x: 8.01000023, y: 7.22000027, z: 0}
     untrimmedBoundsData:
     - {x: 0, y: 0, z: 0}
     - {x: 10.2399998, y: 7.67999983, z: 0}
     texelSize: {x: .00999999978, y: .00999999978}
     positions:
-    - {x: -5.11999989, y: -3.83999991, z: 0}
-    - {x: 5.11999989, y: -3.83999991, z: 0}
-    - {x: -5.11999989, y: 3.83999991, z: 0}
-    - {x: 5.11999989, y: 3.83999991, z: 0}
+    - {x: -4.38999987, y: -3.65999985, z: 0}
+    - {x: 3.61999989, y: -3.65999985, z: 0}
+    - {x: -4.38999987, y: 3.56000018, z: 0}
+    - {x: 3.61999989, y: 3.56000018, z: 0}
     normals: []
     tangents: []
     uvs:
-    - {x: .000977050746, y: .000977050746}
-    - {x: .500976086, y: .000977050746}
-    - {x: .000977050746, y: .375976086}
-    - {x: .500976086, y: .375976086}
+    - {x: .000977050746, y: .377930164}
+    - {x: .392089367, y: .377930164}
+    - {x: .000977050746, y: .730468273}
+    - {x: .392089367, y: .730468273}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 93ce82e4c37264fdf96dae0abcf422df, type: 2}
     materialId: 0
-    sourceTextureGUID: d460703c2ad064bf18d257626ad6d683
+    sourceTextureGUID: a6608b8281bbf46028bb2008fd04ee55
     extractRegion: 0
     regionX: 0
     regionY: 0
@@ -100,6 +100,48 @@ MonoBehaviour:
     normals: []
     tangents: []
     uvs:
+    - {x: .000977050746, y: .000977050746}
+    - {x: .500976086, y: .000977050746}
+    - {x: .000977050746, y: .375976086}
+    - {x: .500976086, y: .375976086}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 93ce82e4c37264fdf96dae0abcf422df, type: 2}
+    materialId: 0
+    sourceTextureGUID: a103834d62ff4466a9efd192df49e5b1
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: bg-water
+    boundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 10.2399998, y: 7.67999983, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 10.2399998, y: 7.67999983, z: 0}
+    texelSize: {x: .00999999978, y: .00999999978}
+    positions:
+    - {x: -5.11999989, y: -3.83999991, z: 0}
+    - {x: 5.11999989, y: -3.83999991, z: 0}
+    - {x: -5.11999989, y: 3.83999991, z: 0}
+    - {x: 5.11999989, y: 3.83999991, z: 0}
+    normals: []
+    tangents: []
+    uvs:
     - {x: .502930164, y: .000977050746}
     - {x: .502930164, y: .500976086}
     - {x: .877929211, y: .000977050746}
@@ -107,7 +149,7 @@ MonoBehaviour:
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 93ce82e4c37264fdf96dae0abcf422df, type: 2}
     materialId: 0
-    sourceTextureGUID: a103834d62ff4466a9efd192df49e5b1
+    sourceTextureGUID: a6eeb971eca8b45d4aab6dc762edfe95
     extractRegion: 0
     regionX: 0
     regionY: 0
@@ -143,7 +185,7 @@ MonoBehaviour:
   loadable: 0
   invOrthoSize: 2
   halfTargetHeight: 50
-  buildKey: 1887379724
+  buildKey: 1263020945
   dataGuid: 142a26ee432cd4928afe72b1d69fb2c1
   managedSpriteCollection: 0
   hasPlatformData: 0

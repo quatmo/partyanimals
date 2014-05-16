@@ -2,8 +2,14 @@
 using System.Collections;
 
 public class TurnManager : MonoBehaviour {
+	public const int SELECT_BASE = 1;
+	public const int MY_TURN = 2;
+	public const int ENEMY_TURN = 3;
+
 	private CameraController cameraController;
 	private DistrictManager districtManager;
+
+	private int gameState = SELECT_BASE;
 	
 	// Use this for initialization
 	void Start () {
@@ -12,8 +18,10 @@ public class TurnManager : MonoBehaviour {
 		// Check if this is the start of a game
 		if(GameManager.GetInstance().IsNewGame){
 			//show district selection screen
+			gameState = SELECT_BASE;
 		}else{
 			//show where the avatars are based on saved game
+			gameState = MY_TURN;
 		}
 	}
 	
@@ -33,17 +41,26 @@ public class TurnManager : MonoBehaviour {
 		cameraController.tweenTo(districtPosition.x, districtPosition.y);
 
 		//what state of the game is this?
+		if(gameState == SELECT_BASE){
+			districtManager.showSelectHomeDistrictWindow(districtData);
+		}else if(gameState == MY_TURN){
+			districtManager.showDistrictDataWindow(districtData);
+		}
 
-		//if in start of game
-
-
-		//if in my turn
-		districtManager.showDistrictDataWindow(districtData);
 	}
 
 	[Signal]
 	void onSortieClicked()
 	{
 		Application.LoadLevel("Sortie");
+	}
+
+	[Signal]
+	void onSelectBaseClicked(){
+		//select base for AI
+		districtManager.hideHomeDistrictSelectionWindow();
+		GameManager.GetInstance().IsNewGame = false;
+		GameManager.GetInstance().IsPlayerTurn = true;
+		gameState = MY_TURN;
 	}
 }

@@ -4,6 +4,7 @@ using System.Collections;
 public class DistrictManager : MonoBehaviour
 {
 	public GameObject districtDescriptionWindow;
+	public GameObject homeDistrictWindow;
 	public iTween.EaseType easeType;
 	
 	public TownData townData;
@@ -45,14 +46,34 @@ public class DistrictManager : MonoBehaviour
 		              iTween.Hash ("y", 3.45, "time", .3, "easetype", easeType));
 	}
 
+	public void showSelectHomeDistrictWindow(DistrictData data){
+		homeDistrictWindow.GetComponent<DistrictWindowDisplay>().districtData = data;
+		iTween.MoveTo(homeDistrictWindow, 
+		              iTween.Hash ("y", 3.45, "time", .3, "easetype", easeType));
+	}
+
+	public void hideHomeDistrictSelectionWindow(){
+		hideWindow (homeDistrictWindow);
+	}
+
+	[Signal]
+	void onCloseHomeDistrictWindow()
+	{
+		hideWindow (homeDistrictWindow);
+	}
+
 	[Signal]
 	void onCloseDistrictWindow()
 	{
+		hideWindow(districtDescriptionWindow);
+	}
+
+	private void hideWindow(GameObject window){
 		cameraController.zoomOut();
 		cameraController.tweenTo(0f, 0f);
-
-		iTween.MoveTo(districtDescriptionWindow, 
-	                iTween.Hash ("y", 7, "time", .3, "easetype", easeType));
+		
+		iTween.MoveTo(window, 
+		              iTween.Hash ("y", 7, "time", .3, "easetype", easeType));
 	}
 
 }

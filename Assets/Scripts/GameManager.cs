@@ -11,6 +11,7 @@ public class GameManager {
 	private DistrictData _selectedDistrict;
 
 	public bool IsNewGame = true;
+	public bool IsPlayerTurn = true;
 
 	public TownData townData{
 		get {return _townData;}
