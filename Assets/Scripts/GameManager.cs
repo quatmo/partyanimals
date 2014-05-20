@@ -13,6 +13,9 @@ public class GameManager {
 	public bool IsNewGame = true;
 	public bool IsPlayerTurn = true;
 
+	public PlayerData myPlayer;
+	public PlayerData aiPlayer;
+
 	public TownData townData{
 		get {return _townData;}
 	}
@@ -45,6 +48,12 @@ public class GameManager {
 	public void sortieUpdate(){
 		//do update selected district
 		//Debug.Log("Update district now" + _selectedDistrict.districtName);
+	}
+
+	public DistrictBehaviour findDistrict(string id){
+		GameObject go = GameObject.Find(id);
+		DistrictBehaviour db = go.GetComponent<DistrictBehaviour>();
+		return db;
 	}
 	
 }

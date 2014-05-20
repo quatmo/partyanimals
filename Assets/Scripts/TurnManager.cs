@@ -28,6 +28,7 @@ public class TurnManager : MonoBehaviour {
 			//show where the avatars are based on saved game
 			statusText.text = "Turn";
 			gameState = MY_TURN;
+			initializePlayer(GameManager.GetInstance().myPlayer);
 		}
 	}
 	
@@ -69,13 +70,31 @@ public class TurnManager : MonoBehaviour {
 		districtManager.hideHomeDistrictSelectionWindow();
 		GameManager.GetInstance().IsNewGame = false;
 		GameManager.GetInstance().IsPlayerTurn = true;
+
+
+		PlayerData playerData = new PlayerData();
+		playerData.avatar = playerAvatar.GetComponent<AvatarController>();
+		playerData.hq = selectedDistrict.districtData;
+		playerData.hqID = selectedDistrict.districtData.id;
+		GameManager.GetInstance().myPlayer = playerData;
+
 		playerAvatar.SetActive(true);
 
-		Vector3 districtPosition = selectedDistrict.gameObject.transform.position;
-		playerAvatar.GetComponent<AvatarController>().appearAt(districtPosition.x, districtPosition.y);
+		initializePlayer(playerData);
 
 		gameState = MY_TURN;
 
 		statusText.text = "Do Sortie";
+	}
+
+	private void initializePlayer(PlayerData playerData){
+		if(playerData.hq == null){
+			playerData.hq = GameManager.GetInstance().findDistrict(playerData.hqID).districtData;
+		}
+
+		Vector3 districtPosition = new Vector3(playerData.hq.x, playerData.hq.y, 0);
+
+		playerAvatar.GetComponent<AvatarController>().appearAt(districtPosition.x, districtPosition.y);
+
 	}
 }

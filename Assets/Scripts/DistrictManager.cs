@@ -28,6 +28,8 @@ public class DistrictManager : MonoBehaviour
 			GameObject go = GameObject.Find(districtData.id);
 			Debug.Log(districtData.id);
 			DistrictBehaviour db = go.GetComponent<DistrictBehaviour>();
+			districtData.x = go.transform.position.x;
+			districtData.y = go.transform.position.y;
 			db.districtData = districtData;
 			Debug.Log (db.districtData.districtName);
 			districts[i] = go;
