@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class PlayerData{
+public class PlayerData:ScriptableObject{
 
 	public DistrictData hq;
 	public AvatarController avatar;

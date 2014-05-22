@@ -20,7 +20,8 @@ public class TurnManager : MonoBehaviour {
 		cameraController = GetComponent<CameraController>();
 		districtManager = GetComponent<DistrictManager>();
 		// Check if this is the start of a game
-		if(GameManager.GetInstance().IsNewGame){
+		Debug.Log ("State is: "+GameManager.GetInstance().state.isNewGame);
+		if(GameManager.GetInstance().state.isNewGame){
 			//show district selection screen
 			gameState = SELECT_BASE;
 			playerAvatar.SetActive(false);
@@ -28,7 +29,7 @@ public class TurnManager : MonoBehaviour {
 			//show where the avatars are based on saved game
 			statusText.text = "Turn";
 			gameState = MY_TURN;
-			initializePlayer(GameManager.GetInstance().myPlayer);
+			initializePlayer(GameManager.GetInstance().state.humanPlayer);
 		}
 	}
 	
@@ -68,15 +69,13 @@ public class TurnManager : MonoBehaviour {
 	void onSelectBaseClicked(){
 		//select base for AI
 		districtManager.hideHomeDistrictSelectionWindow();
-		GameManager.GetInstance().IsNewGame = false;
-		GameManager.GetInstance().IsPlayerTurn = true;
-
+		GameManager.GetInstance().state.isNewGame = false;
 
 		PlayerData playerData = new PlayerData();
 		playerData.avatar = playerAvatar.GetComponent<AvatarController>();
 		playerData.hq = selectedDistrict.districtData;
 		playerData.hqID = selectedDistrict.districtData.id;
-		GameManager.GetInstance().myPlayer = playerData;
+		GameManager.GetInstance().state.humanPlayer = playerData;
 
 		playerAvatar.SetActive(true);
 

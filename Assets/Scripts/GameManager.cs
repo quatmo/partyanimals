@@ -13,8 +13,7 @@ public class GameManager {
 	public bool IsNewGame = true;
 	public bool IsPlayerTurn = true;
 
-	public PlayerData myPlayer;
-	public PlayerData aiPlayer;
+	public GameState state;
 
 	public TownData townData{
 		get {return _townData;}
@@ -28,7 +27,6 @@ public class GameManager {
 		if(_instance == null){
 			_instance = new GameManager();
 		}
-
 		return _instance;
 	}
 
@@ -36,6 +34,7 @@ public class GameManager {
 	public void initialize(TownData townData){
 		if(!_townData){
 			_townData = townData;
+			state = ScriptableObject.CreateInstance<GameState>(); //should initialize with the userprefs
 		}else{
 			Debug.Log("Did not initialize because town data already exists");
 		}
