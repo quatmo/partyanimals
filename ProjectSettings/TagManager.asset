@@ -41,13 +41,17 @@ TagManager:
     userID: 0
     uniqueID: 0
     locked: 0
+  - name: bg
+    userID: 2
+    uniqueID: 2065262111
+    locked: 0
   - name: districts
     userID: 1
     uniqueID: 718075967
     locked: 0
-  - name: bg
-    userID: 2
-    uniqueID: 2065262111
+  - name: avatar
+    userID: 5
+    uniqueID: 3345662533
     locked: 0
   - name: text
     userID: 3

@@ -11,5 +11,7 @@ public class DistrictData:ScriptableObject{
 	public float winnabilityB;
 	public int totalPopulation;
 	public int votingPopulation;
+	public float x;
+	public float y;
 
 }

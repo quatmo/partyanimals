@@ -11,6 +11,9 @@ public class GameManager {
 	private DistrictData _selectedDistrict;
 
 	public bool IsNewGame = true;
+	public bool IsPlayerTurn = true;
+
+	public GameState state;
 
 	public TownData townData{
 		get {return _townData;}
@@ -24,7 +27,6 @@ public class GameManager {
 		if(_instance == null){
 			_instance = new GameManager();
 		}
-
 		return _instance;
 	}
 
@@ -32,6 +34,7 @@ public class GameManager {
 	public void initialize(TownData townData){
 		if(!_townData){
 			_townData = townData;
+			state = ScriptableObject.CreateInstance<GameState>(); //should initialize with the userprefs
 		}else{
 			Debug.Log("Did not initialize because town data already exists");
 		}
@@ -44,6 +47,12 @@ public class GameManager {
 	public void sortieUpdate(){
 		//do update selected district
 		//Debug.Log("Update district now" + _selectedDistrict.districtName);
+	}
+
+	public DistrictBehaviour findDistrict(string id){
+		GameObject go = GameObject.Find(id);
+		DistrictBehaviour db = go.GetComponent<DistrictBehaviour>();
+		return db;
 	}
 	
 }
