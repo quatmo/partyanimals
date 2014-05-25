@@ -49,8 +49,10 @@ MonoBehaviour:
     pad: 0
     colliderType: 0
   platforms:
-  - name: 
-    spriteCollection: {fileID: 0}
+  - name: 1x
+    spriteCollection: {fileID: 11400000, guid: b05b56d771b3f484aaf1edf408881d4f, type: 2}
+  - name: 2x
+    spriteCollection: {fileID: 11400000, guid: c3d344fa6e3fe7946bf62f12ad564db9, type: 2}
   managedSpriteCollection: 0
   loadable: 0
   atlasFormat: 0
@@ -602,9 +604,9 @@ MonoBehaviour:
   spriteCollection: {fileID: 11400000, guid: a7ab71a8f45204df087b9fd305929e3c, type: 2}
   premultipliedAlpha: 0
   altMaterials:
-  - {fileID: 2100000, guid: 60251ca0bca4c4209a7cd2567e2e9c3f, type: 2}
+  - {fileID: 2100000, guid: 57753b553b335ca47be79235208b99a0, type: 2}
   atlasMaterials:
-  - {fileID: 2100000, guid: 60251ca0bca4c4209a7cd2567e2e9c3f, type: 2}
+  - {fileID: 2100000, guid: 57753b553b335ca47be79235208b99a0, type: 2}
   atlasTextures:
   - {fileID: 2800000, guid: 304c71ba15ed24f63a2df52cfe59af57, type: 3}
   atlasTextureFiles: []

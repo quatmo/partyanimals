@@ -1,0 +1,919 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: CarabaoSprites@2x
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d546f34a90531a14eaba82a43b05b86b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 1
+  spriteDefinitions:
+  - name: sortie-kalabaw_06
+    boundsData:
+    - {x: -.0399999917, y: .0350000262, z: 0}
+    - {x: 1.20000005, y: 1.61000001, z: 0}
+    untrimmedBoundsData:
+    - {x: .00249999762, y: 0, z: 0}
+    - {x: 1.505, y: 2.00999999, z: 0}
+    texelSize: {x: .00999999978, y: .00999999978}
+    positions:
+    - {x: -.639999986, y: -.769999981, z: 0}
+    - {x: .560000002, y: -.769999981, z: 0}
+    - {x: -.639999986, y: .840000033, z: 0}
+    - {x: .560000002, y: .840000033, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .477540046, y: .626465321}
+    - {x: .477540046, y: .743651867}
+    - {x: .791991234, y: .626465321}
+    - {x: .791991234, y: .743651867}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f6408f2e10337e44ab8027570497bc8a, type: 2}
+    materialId: 0
+    sourceTextureGUID: 1018ce5a300d94a5c800e92b11863586
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: sortie-kalabaw_07
+    boundsData:
+    - {x: -.0500000119, y: .0350000262, z: 0}
+    - {x: 1.21000004, y: 1.61000001, z: 0}
+    untrimmedBoundsData:
+    - {x: .00249999762, y: 0, z: 0}
+    - {x: 1.505, y: 2.00999999, z: 0}
+    texelSize: {x: .00999999978, y: .00999999978}
+    positions:
+    - {x: -.655000031, y: -.769999981, z: 0}
+    - {x: .555000007, y: -.769999981, z: 0}
+    - {x: -.655000031, y: .840000033, z: 0}
+    - {x: .555000007, y: .840000033, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .563477516, y: .506348133}
+    - {x: .563477516, y: .624511242}
+    - {x: .877928734, y: .506348133}
+    - {x: .877928734, y: .624511242}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f6408f2e10337e44ab8027570497bc8a, type: 2}
+    materialId: 0
+    sourceTextureGUID: 2bfb7103a5235400b8adaf3d8453053f
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: sortie-kalabaw_09
+    boundsData:
+    - {x: -.0625000298, y: .0350000262, z: 0}
+    - {x: 1.2249999, y: 1.61000001, z: 0}
+    untrimmedBoundsData:
+    - {x: .00249999762, y: 0, z: 0}
+    - {x: 1.505, y: 2.00999999, z: 0}
+    texelSize: {x: .00999999978, y: .00999999978}
+    positions:
+    - {x: -.675000012, y: -.769999981, z: 0}
+    - {x: .549999952, y: -.769999981, z: 0}
+    - {x: -.675000012, y: .840000033, z: 0}
+    - {x: .549999952, y: .840000033, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .247071296, y: .297852039}
+    - {x: .247071296, y: .417479992}
+    - {x: .561522484, y: .297852039}
+    - {x: .561522484, y: .417479992}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f6408f2e10337e44ab8027570497bc8a, type: 2}
+    materialId: 0
+    sourceTextureGUID: 3265a93e018e14e31b3934d2c1a4a73f
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: sortie-kalabaw_19
+    boundsData:
+    - {x: .0349999666, y: .0399999917, z: 0}
+    - {x: 1.38, y: 1.6099999, z: 0}
+    untrimmedBoundsData:
+    - {x: .00249999762, y: 0, z: 0}
+    - {x: 1.505, y: 2.00999999, z: 0}
+    texelSize: {x: .00999999978, y: .00999999978}
+    positions:
+    - {x: -.655000031, y: -.764999986, z: 0}
+    - {x: .724999964, y: -.764999986, z: 0}
+    - {x: -.655000031, y: .844999969, z: 0}
+    - {x: .724999964, y: .844999969, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .320313483, y: .000977050746}
+    - {x: .320313483, y: .135741696}
+    - {x: .634764671, y: .000977050746}
+    - {x: .634764671, y: .135741696}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f6408f2e10337e44ab8027570497bc8a, type: 2}
+    materialId: 0
+    sourceTextureGUID: 331f0a6128d8849ee905bba19c691357
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: sortie-kalabaw_15
+    boundsData:
+    - {x: -.0424999893, y: .134999901, z: 0}
+    - {x: 1.11500001, y: 1.67999983, z: 0}
+    untrimmedBoundsData:
+    - {x: .00249999762, y: -.00250005722, z: 0}
+    - {x: 1.505, y: 2.01499987, z: 0}
+    texelSize: {x: .00999999978, y: .00999999978}
+    positions:
+    - {x: -.600000024, y: -.705000043, z: 0}
+    - {x: .515000045, y: -.705000043, z: 0}
+    - {x: -.600000024, y: .974999845, z: 0}
+    - {x: .515000045, y: .974999845, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00195410149, y: .787598133}
+    - {x: .219725579, y: .787598133}
+    - {x: .00195410149, y: .951659679}
+    - {x: .219725579, y: .951659679}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f6408f2e10337e44ab8027570497bc8a, type: 2}
+    materialId: 0
+    sourceTextureGUID: 3892ba08e17cc45408321050952d2377
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: sortie-kalabaw_17
+    boundsData:
+    - {x: .0575000048, y: .0399999917, z: 0}
+    - {x: 1.23500001, y: 1.6099999, z: 0}
+    untrimmedBoundsData:
+    - {x: .00249999762, y: 0, z: 0}
+    - {x: 1.505, y: 2.00999999, z: 0}
+    texelSize: {x: .00999999978, y: .00999999978}
+    positions:
+    - {x: -.560000002, y: -.764999986, z: 0}
+    - {x: .675000012, y: -.764999986, z: 0}
+    - {x: -.560000002, y: .844999969, z: 0}
+    - {x: .675000012, y: .844999969, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .572266579, y: .262695789}
+    - {x: .572266579, y: .383300304}
+    - {x: .886717796, y: .262695789}
+    - {x: .886717796, y: .383300304}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f6408f2e10337e44ab8027570497bc8a, type: 2}
+    materialId: 0
+    sourceTextureGUID: 3e726bb2cd9bb48368c73b3779ac316b
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: sortie-kalabaw_10
+    boundsData:
+    - {x: -.067500025, y: .0350000262, z: 0}
+    - {x: 1.2249999, y: 1.61000001, z: 0}
+    untrimmedBoundsData:
+    - {x: .00249999762, y: 0, z: 0}
+    - {x: 1.505, y: 2.00999999, z: 0}
+    texelSize: {x: .00999999978, y: .00999999978}
+    positions:
+    - {x: -.680000007, y: -.769999981, z: 0}
+    - {x: .544999957, y: -.769999981, z: 0}
+    - {x: -.680000007, y: .840000033, z: 0}
+    - {x: .544999957, y: .840000033, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00195410149, y: .304687977}
+    - {x: .241209954, y: .304687977}
+    - {x: .00195410149, y: .461913586}
+    - {x: .241209954, y: .461913586}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f6408f2e10337e44ab8027570497bc8a, type: 2}
+    materialId: 0
+    sourceTextureGUID: 4d492e9143eb74d3b8c35db5e22dc736
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: sortie-kalabaw_11
+    boundsData:
+    - {x: -.032499969, y: .0349999368, z: 0}
+    - {x: 1.21500003, y: 1.6099999, z: 0}
+    untrimmedBoundsData:
+    - {x: .00249999762, y: -.00250005722, z: 0}
+    - {x: 1.505, y: 2.01499987, z: 0}
+    texelSize: {x: .00999999978, y: .00999999978}
+    positions:
+    - {x: -.639999986, y: -.769999981, z: 0}
+    - {x: .575000048, y: -.769999981, z: 0}
+    - {x: -.639999986, y: .839999855, z: 0}
+    - {x: .575000048, y: .839999855, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .245118171, y: .419434071}
+    - {x: .245118171, y: .538085461}
+    - {x: .559569359, y: .419434071}
+    - {x: .559569359, y: .538085461}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f6408f2e10337e44ab8027570497bc8a, type: 2}
+    materialId: 0
+    sourceTextureGUID: 5b0fee51b9bc34f278ae5e6aaab116ac
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: sortie-kalabaw_14
+    boundsData:
+    - {x: -.00249999762, y: .0449999571, z: 0}
+    - {x: 1.23500001, y: 1.61999989, z: 0}
+    untrimmedBoundsData:
+    - {x: .00249999762, y: -.00250005722, z: 0}
+    - {x: 1.505, y: 2.01499987, z: 0}
+    texelSize: {x: .00999999978, y: .00999999978}
+    positions:
+    - {x: -.620000005, y: -.764999986, z: 0}
+    - {x: .61500001, y: -.764999986, z: 0}
+    - {x: -.620000005, y: .8549999, z: 0}
+    - {x: .61500001, y: .8549999, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00195410149, y: .144531742}
+    - {x: .243163079, y: .144531742}
+    - {x: .00195410149, y: .302733898}
+    - {x: .243163079, y: .302733898}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f6408f2e10337e44ab8027570497bc8a, type: 2}
+    materialId: 0
+    sourceTextureGUID: 61166dd3479e0430984eaeca98d7e3db
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: sortie-kalabaw_18
+    boundsData:
+    - {x: .0425000191, y: .0399999917, z: 0}
+    - {x: 1.32500005, y: 1.6099999, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.5, y: 2.00999999, z: 0}
+    texelSize: {x: .00999999978, y: .00999999978}
+    positions:
+    - {x: -.620000005, y: -.764999986, z: 0}
+    - {x: .705000043, y: -.764999986, z: 0}
+    - {x: -.620000005, y: .844999969, z: 0}
+    - {x: .705000043, y: .844999969, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .638672829, y: .131348148}
+    - {x: .638672829, y: .260741711}
+    - {x: .953124046, y: .131348148}
+    - {x: .953124046, y: .260741711}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f6408f2e10337e44ab8027570497bc8a, type: 2}
+    materialId: 0
+    sourceTextureGUID: 87320dd9d72044021a1c762c38f77944
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: sortie-kalabaw_16
+    boundsData:
+    - {x: -.00499999523, y: .0399999917, z: 0}
+    - {x: 1.00999999, y: 1.6099999, z: 0}
+    untrimmedBoundsData:
+    - {x: .00249999762, y: 0, z: 0}
+    - {x: 1.505, y: 2.00999999, z: 0}
+    texelSize: {x: .00999999978, y: .00999999978}
+    positions:
+    - {x: -.50999999, y: -.764999986, z: 0}
+    - {x: .5, y: -.764999986, z: 0}
+    - {x: -.50999999, y: .844999969, z: 0}
+    - {x: .5, y: .844999969, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .795899391, y: .626465321}
+    - {x: .993163109, y: .626465321}
+    - {x: .795899391, y: .783690929}
+    - {x: .993163109, y: .783690929}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f6408f2e10337e44ab8027570497bc8a, type: 2}
+    materialId: 0
+    sourceTextureGUID: 8c994b084f1be4bafa37426c07d24dc8
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: sortie-kalabaw_02
+    boundsData:
+    - {x: -.00499996543, y: .0499999821, z: 0}
+    - {x: 1.26999998, y: 1.61999989, z: 0}
+    untrimmedBoundsData:
+    - {x: .00249999762, y: -.00250005722, z: 0}
+    - {x: 1.505, y: 2.01499987, z: 0}
+    texelSize: {x: .00999999978, y: .00999999978}
+    positions:
+    - {x: -.639999986, y: -.75999999, z: 0}
+    - {x: .630000055, y: -.75999999, z: 0}
+    - {x: -.639999986, y: .859999955, z: 0}
+    - {x: .630000055, y: .859999955, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .320313483, y: .137695804}
+    - {x: .568358421, y: .137695804}
+    - {x: .320313483, y: .295897961}
+    - {x: .568358421, y: .295897961}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f6408f2e10337e44ab8027570497bc8a, type: 2}
+    materialId: 0
+    sourceTextureGUID: 9a708bad7b42540d1abfead0157fa159
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: sortie-kalabaw_20
+    boundsData:
+    - {x: -.0100000203, y: .0399999917, z: 0}
+    - {x: 1.45000005, y: 1.6099999, z: 0}
+    untrimmedBoundsData:
+    - {x: .00249999762, y: 0, z: 0}
+    - {x: 1.505, y: 2.00999999, z: 0}
+    texelSize: {x: .00999999978, y: .00999999978}
+    positions:
+    - {x: -.735000014, y: -.764999986, z: 0}
+    - {x: .714999974, y: -.764999986, z: 0}
+    - {x: -.735000014, y: .844999969, z: 0}
+    - {x: .714999974, y: .844999969, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00195410149, y: .000977050746}
+    - {x: .00195410149, y: .142577633}
+    - {x: .316405267, y: .000977050746}
+    - {x: .316405267, y: .142577633}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f6408f2e10337e44ab8027570497bc8a, type: 2}
+    materialId: 0
+    sourceTextureGUID: 9b418b4f083eb4b5c851f82aa4c65892
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: sortie-kalabaw_12
+    boundsData:
+    - {x: -.0349999666, y: .0299999714, z: 0}
+    - {x: 1.22000003, y: 1.5999999, z: 0}
+    untrimmedBoundsData:
+    - {x: .00249999762, y: -.00250005722, z: 0}
+    - {x: 1.505, y: 2.01499987, z: 0}
+    texelSize: {x: .00999999978, y: .00999999978}
+    positions:
+    - {x: -.644999981, y: -.769999981, z: 0}
+    - {x: .575000048, y: -.769999981, z: 0}
+    - {x: -.644999981, y: .829999924, z: 0}
+    - {x: .575000048, y: .829999924, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00195410149, y: .463867664}
+    - {x: .240233392, y: .463867664}
+    - {x: .00195410149, y: .620116711}
+    - {x: .240233392, y: .620116711}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f6408f2e10337e44ab8027570497bc8a, type: 2}
+    materialId: 0
+    sourceTextureGUID: a6e7b0be8742b48958345e99551684a0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: sortie-kalabaw_05
+    boundsData:
+    - {x: -.0125000179, y: .0724999607, z: 0}
+    - {x: 1.15499997, y: 1.67499995, z: 0}
+    untrimmedBoundsData:
+    - {x: .00249999762, y: -.00250005722, z: 0}
+    - {x: 1.505, y: 2.01499987, z: 0}
+    texelSize: {x: .00999999978, y: .00999999978}
+    positions:
+    - {x: -.590000033, y: -.764999986, z: 0}
+    - {x: .564999998, y: -.764999986, z: 0}
+    - {x: -.590000033, y: .909999907, z: 0}
+    - {x: .564999998, y: .909999907, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00195410149, y: .622070789}
+    - {x: .227538079, y: .622070789}
+    - {x: .00195410149, y: .785644054}
+    - {x: .227538079, y: .785644054}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f6408f2e10337e44ab8027570497bc8a, type: 2}
+    materialId: 0
+    sourceTextureGUID: b6a30e48da3454bc2890fcd97fc3a238
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: sortie-kalabaw_01
+    boundsData:
+    - {x: -.0399999917, y: .029999882, z: 0}
+    - {x: 1.20000005, y: 1.6099999, z: 0}
+    untrimmedBoundsData:
+    - {x: .00249999762, y: -.00250005722, z: 0}
+    - {x: 1.505, y: 2.01499987, z: 0}
+    texelSize: {x: .00999999978, y: .00999999978}
+    positions:
+    - {x: -.639999986, y: -.775000036, z: 0}
+    - {x: .560000002, y: -.775000036, z: 0}
+    - {x: -.639999986, y: .8349998, z: 0}
+    - {x: .560000002, y: .8349998, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .231446296, y: .703125477}
+    - {x: .465819329, y: .703125477}
+    - {x: .231446296, y: .860351086}
+    - {x: .465819329, y: .860351086}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f6408f2e10337e44ab8027570497bc8a, type: 2}
+    materialId: 0
+    sourceTextureGUID: c0689d6403937440585098f2da9ef942
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: sortie-kalabaw_04
+    boundsData:
+    - {x: -.0625, y: .0349999666, z: 0}
+    - {x: 1.17499995, y: 1.64999998, z: 0}
+    untrimmedBoundsData:
+    - {x: .00249999762, y: -.00250005722, z: 0}
+    - {x: 1.505, y: 2.01499987, z: 0}
+    texelSize: {x: .00999999978, y: .00999999978}
+    positions:
+    - {x: -.649999976, y: -.790000021, z: 0}
+    - {x: .524999976, y: -.790000021, z: 0}
+    - {x: -.649999976, y: .859999955, z: 0}
+    - {x: .524999976, y: .859999955, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .244141608, y: .540039539}
+    - {x: .473631829, y: .540039539}
+    - {x: .244141608, y: .701171398}
+    - {x: .473631829, y: .701171398}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f6408f2e10337e44ab8027570497bc8a, type: 2}
+    materialId: 0
+    sourceTextureGUID: c7aa61ba0440544958e56d9936901c58
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: sortie-kalabaw_13
+    boundsData:
+    - {x: -.0349999964, y: -8.94069672e-08, z: 0}
+    - {x: 1.22000003, y: 1.56999993, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -.00250005722, z: 0}
+    - {x: 1.5, y: 2.01499987, z: 0}
+    texelSize: {x: .00999999978, y: .00999999978}
+    positions:
+    - {x: -.644999981, y: -.785000026, z: 0}
+    - {x: .574999988, y: -.785000026, z: 0}
+    - {x: -.644999981, y: .784999847, z: 0}
+    - {x: .574999988, y: .784999847, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .469727546, y: .745605946}
+    - {x: .469727546, y: .864745617}
+    - {x: .776366234, y: .745605946}
+    - {x: .776366234, y: .864745617}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f6408f2e10337e44ab8027570497bc8a, type: 2}
+    materialId: 0
+    sourceTextureGUID: e07fbc14839cf434c98e9259d6386264
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: sortie-kalabaw_03
+    boundsData:
+    - {x: .032499969, y: .0849999487, z: 0}
+    - {x: 1.31499994, y: 1.64999986, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: -.00250005722, z: 0}
+    - {x: 1.5, y: 2.01499987, z: 0}
+    texelSize: {x: .00999999978, y: .00999999978}
+    positions:
+    - {x: -.625, y: -.74000001, z: 0}
+    - {x: .689999938, y: -.74000001, z: 0}
+    - {x: -.625, y: .909999907, z: 0}
+    - {x: .689999938, y: .909999907, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .638672829, y: .000977050746}
+    - {x: .638672829, y: .12939404}
+    - {x: .960936546, y: .000977050746}
+    - {x: .960936546, y: .12939404}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f6408f2e10337e44ab8027570497bc8a, type: 2}
+    materialId: 0
+    sourceTextureGUID: e10db3ce6ffdf431781af2154f74d90d
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: sortie-kalabaw_08
+    boundsData:
+    - {x: -.0600000024, y: .0350000262, z: 0}
+    - {x: 1.22000003, y: 1.61000001, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 1.5, y: 2.00999999, z: 0}
+    texelSize: {x: .00999999978, y: .00999999978}
+    positions:
+    - {x: -.670000017, y: -.769999981, z: 0}
+    - {x: .550000012, y: -.769999981, z: 0}
+    - {x: -.670000017, y: .840000033, z: 0}
+    - {x: .550000012, y: .840000033, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .565430641, y: .385254383}
+    - {x: .565430641, y: .504394054}
+    - {x: .879881859, y: .385254383}
+    - {x: .879881859, y: .504394054}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: f6408f2e10337e44ab8027570497bc8a, type: 2}
+    materialId: 0
+    sourceTextureGUID: fbf04a3b7e24244768e944f89ddb6326
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: f6408f2e10337e44ab8027570497bc8a, type: 2}
+  textures:
+  - {fileID: 2800000, guid: 2661d1cfb0f75bb44b310d3b0076cf45, type: 3}
+  pngTextures: []
+  materialPngTextureId: 00000000
+  textureFilterMode: 1
+  textureMipMaps: 0
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: 51b86dc6ce7621d4e828271860615c81
+  spriteCollectionName: CarabaoSprites@2x
+  assetName: 
+  loadable: 0
+  invOrthoSize: 2
+  halfTargetHeight: 50
+  buildKey: 1336553544
+  dataGuid: 4135cdf201df3d54ab3aa59da83aa3b0
+  managedSpriteCollection: 1
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

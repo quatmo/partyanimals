@@ -41,139 +41,11 @@ MonoBehaviour:
   version: 3
   materialIdsValid: 1
   needMaterialInstance: 0
-  spriteDefinitions:
-  - name: bg-beach
-    boundsData:
-    - {x: -.38499999, y: -.0499998331, z: 0}
-    - {x: 8.01000023, y: 7.22000027, z: 0}
-    untrimmedBoundsData:
-    - {x: 0, y: 0, z: 0}
-    - {x: 10.2399998, y: 7.67999983, z: 0}
-    texelSize: {x: .00999999978, y: .00999999978}
-    positions:
-    - {x: -4.38999987, y: -3.65999985, z: 0}
-    - {x: 3.61999989, y: -3.65999985, z: 0}
-    - {x: -4.38999987, y: 3.56000018, z: 0}
-    - {x: 3.61999989, y: 3.56000018, z: 0}
-    normals: []
-    tangents: []
-    uvs:
-    - {x: .000977050746, y: .377930164}
-    - {x: .392089367, y: .377930164}
-    - {x: .000977050746, y: .730468273}
-    - {x: .392089367, y: .730468273}
-    indices: 000000000300000001000000020000000300000000000000
-    material: {fileID: 2100000, guid: 93ce82e4c37264fdf96dae0abcf422df, type: 2}
-    materialId: 0
-    sourceTextureGUID: a6608b8281bbf46028bb2008fd04ee55
-    extractRegion: 0
-    regionX: 0
-    regionY: 0
-    regionW: 0
-    regionH: 0
-    flipped: 0
-    complexGeometry: 0
-    physicsEngine: 0
-    colliderType: 0
-    customColliders: []
-    colliderVertices: []
-    colliderIndicesFwd: 
-    colliderIndicesBack: 
-    colliderConvex: 0
-    colliderSmoothSphereCollisions: 0
-    polygonCollider2D: []
-    edgeCollider2D: []
-    attachPoints: []
-  - name: TitleBG
-    boundsData:
-    - {x: 0, y: 0, z: 0}
-    - {x: 10.2399998, y: 7.67999983, z: 0}
-    untrimmedBoundsData:
-    - {x: 0, y: 0, z: 0}
-    - {x: 10.2399998, y: 7.67999983, z: 0}
-    texelSize: {x: .00999999978, y: .00999999978}
-    positions:
-    - {x: -5.11999989, y: -3.83999991, z: 0}
-    - {x: 5.11999989, y: -3.83999991, z: 0}
-    - {x: -5.11999989, y: 3.83999991, z: 0}
-    - {x: 5.11999989, y: 3.83999991, z: 0}
-    normals: []
-    tangents: []
-    uvs:
-    - {x: .000977050746, y: .000977050746}
-    - {x: .500976086, y: .000977050746}
-    - {x: .000977050746, y: .375976086}
-    - {x: .500976086, y: .375976086}
-    indices: 000000000300000001000000020000000300000000000000
-    material: {fileID: 2100000, guid: 93ce82e4c37264fdf96dae0abcf422df, type: 2}
-    materialId: 0
-    sourceTextureGUID: a103834d62ff4466a9efd192df49e5b1
-    extractRegion: 0
-    regionX: 0
-    regionY: 0
-    regionW: 0
-    regionH: 0
-    flipped: 0
-    complexGeometry: 0
-    physicsEngine: 0
-    colliderType: 0
-    customColliders: []
-    colliderVertices: []
-    colliderIndicesFwd: 
-    colliderIndicesBack: 
-    colliderConvex: 0
-    colliderSmoothSphereCollisions: 0
-    polygonCollider2D: []
-    edgeCollider2D: []
-    attachPoints: []
-  - name: bg-water
-    boundsData:
-    - {x: 0, y: 0, z: 0}
-    - {x: 10.2399998, y: 7.67999983, z: 0}
-    untrimmedBoundsData:
-    - {x: 0, y: 0, z: 0}
-    - {x: 10.2399998, y: 7.67999983, z: 0}
-    texelSize: {x: .00999999978, y: .00999999978}
-    positions:
-    - {x: -5.11999989, y: -3.83999991, z: 0}
-    - {x: 5.11999989, y: -3.83999991, z: 0}
-    - {x: -5.11999989, y: 3.83999991, z: 0}
-    - {x: 5.11999989, y: 3.83999991, z: 0}
-    normals: []
-    tangents: []
-    uvs:
-    - {x: .502930164, y: .000977050746}
-    - {x: .502930164, y: .500976086}
-    - {x: .877929211, y: .000977050746}
-    - {x: .877929211, y: .500976086}
-    indices: 000000000300000001000000020000000300000000000000
-    material: {fileID: 2100000, guid: 93ce82e4c37264fdf96dae0abcf422df, type: 2}
-    materialId: 0
-    sourceTextureGUID: a6eeb971eca8b45d4aab6dc762edfe95
-    extractRegion: 0
-    regionX: 0
-    regionY: 0
-    regionW: 0
-    regionH: 0
-    flipped: 1
-    complexGeometry: 0
-    physicsEngine: 0
-    colliderType: 0
-    customColliders: []
-    colliderVertices: []
-    colliderIndicesFwd: 
-    colliderIndicesBack: 
-    colliderConvex: 0
-    colliderSmoothSphereCollisions: 0
-    polygonCollider2D: []
-    edgeCollider2D: []
-    attachPoints: []
+  spriteDefinitions: []
   premultipliedAlpha: 0
   material: {fileID: 0}
-  materials:
-  - {fileID: 2100000, guid: 93ce82e4c37264fdf96dae0abcf422df, type: 2}
-  textures:
-  - {fileID: 2800000, guid: cb8a18e9e27bb481bb643441e35795ab, type: 3}
+  materials: []
+  textures: []
   pngTextures: []
   materialPngTextureId: 00000000
   textureFilterMode: 1
@@ -185,12 +57,16 @@ MonoBehaviour:
   loadable: 0
   invOrthoSize: 2
   halfTargetHeight: 50
-  buildKey: 191907439
+  buildKey: 246032189
   dataGuid: 142a26ee432cd4928afe72b1d69fb2c1
   managedSpriteCollection: 0
-  hasPlatformData: 0
-  spriteCollectionPlatforms: []
-  spriteCollectionPlatformGUIDs: []
+  hasPlatformData: 1
+  spriteCollectionPlatforms:
+  - 1x
+  - 2x
+  spriteCollectionPlatformGUIDs:
+  - bf156a3fb1ef77c428e1df1ea6477d41
+  - 962334b29bc25ed4ba4a6c24f583e315
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

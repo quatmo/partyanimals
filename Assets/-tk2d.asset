@@ -708,9 +708,297 @@ MonoBehaviour:
     loadable: 0
     assetName: 
     version: 3
+  - name: BackgroundSprites
+    spriteCollectionGUID: 153767dbba7c44cdb9a65db7f1cde8bf
+    spriteCollectionDataGUID: 142a26ee432cd4928afe72b1d69fb2c1
+    spriteNames:
+    - dummy
+    spriteTextureGUIDs:
+    - 
+    spriteTextureTimeStamps:
+    - 0
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: CarabaoSprites
+    spriteCollectionGUID: 20df62d4f0d954364a68d117f552a761
+    spriteCollectionDataGUID: eda3da9d8e1e2418d89769f677ec169c
+    spriteNames:
+    - dummy
+    spriteTextureGUIDs:
+    - 
+    spriteTextureTimeStamps:
+    - 0
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: CrocAvatarSprites
+    spriteCollectionGUID: 6b9fc09e1eeb24673be9c6a3778e311b
+    spriteCollectionDataGUID: a7ab71a8f45204df087b9fd305929e3c
+    spriteNames:
+    - dummy
+    spriteTextureGUIDs:
+    - 
+    spriteTextureTimeStamps:
+    - 0
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
   - name: DistrictSpriteCollection
     spriteCollectionGUID: 3f739902761cc4ccaa65e2ecae03c32c
     spriteCollectionDataGUID: 852f847a50e1b40faa9a7390cf8a6adc
+    spriteNames:
+    - dummy
+    spriteTextureGUIDs:
+    - 
+    spriteTextureTimeStamps:
+    - 0
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: MouseAvatarSprites
+    spriteCollectionGUID: 9a021f7443d3342729171e6c31b2aa68
+    spriteCollectionDataGUID: 38539c5debc984f6f9816f72af60ede9
+    spriteNames:
+    - dummy
+    spriteTextureGUIDs:
+    - 
+    spriteTextureTimeStamps:
+    - 0
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: PigAvatarSprites
+    spriteCollectionGUID: 639ee59dbcbc54c7d9e8dd6b14402d65
+    spriteCollectionDataGUID: 32880304820de4460a5c872a1e8ba38c
+    spriteNames:
+    - dummy
+    spriteTextureGUIDs:
+    - 
+    spriteTextureTimeStamps:
+    - 0
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: 
+    spriteCollectionGUID: 
+    spriteCollectionDataGUID: f6a99bba9785d1a4188b8bda034c3092
+    spriteNames: []
+    spriteTextureGUIDs: []
+    spriteTextureTimeStamps: []
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 0
+  - name: 
+    spriteCollectionGUID: 
+    spriteCollectionDataGUID: 8a4cf929de21443b3bcad7ac46f80f90
+    spriteNames: []
+    spriteTextureGUIDs: []
+    spriteTextureTimeStamps: []
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 0
+  - name: PigAvatarSprites@1x
+    spriteCollectionGUID: e49f2971e4e58e84a88a00cce4885eab
+    spriteCollectionDataGUID: a71443cc32bfac64ebb28018a35f16f3
+    spriteNames:
+    - char_pig_01
+    - char_pig_05
+    - char_pig_04
+    - char_pig_03
+    - char_pig_02
+    - char_pig_run_05
+    - char_pig_run_02
+    - char_pig_run_07
+    - char_pig_run_01
+    - char_pig_run_04
+    - char_pig_run_06
+    - char_pig_run_03
+    spriteTextureGUIDs:
+    - 335b95934a29d4f6eaf511a787335e8f
+    - 7731c2872413546d592610dbeff888f3
+    - 90037842b7a5843c0940a505ed53b379
+    - e0a8530dc273a4dd69e8b4883f4cf652
+    - e7cddc3fd9f85493e9c8328125360feb
+    - 232150ae1692947c39ba688cf30b0999
+    - 42d32b682bdb24ef880b91edb7593692
+    - 5f4b6cef7d7594cbb87731b995f3a016
+    - 6069e04eb44194b7c9837b5dcdf3716f
+    - c1a567846a9cd41db9d8802aaba2a2f3
+    - cc78ef60fd45143328be9d397d4212b5
+    - f63e2e16241b841d1ace263ecd6988c0
+    spriteTextureTimeStamps:
+    - 1400887009.47429
+    - 1400887009.50736
+    - 1400887009.50436
+    - 1400887009.50035
+    - 1400887009.4773
+    - 1400887009.52238
+    - 1400887009.51337
+    - 1400887009.52938
+    - 1400887009.51036
+    - 1400887009.51937
+    - 1400887009.52638
+    - 1400887009.51637
+    managedSpriteCollection: 1
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: PigAvatarSprites@2x
+    spriteCollectionGUID: a207b9389c86dea469e0315f5a49555d
+    spriteCollectionDataGUID: 59e357a90b9489042872e6fbf81d4114
+    spriteNames:
+    - char_pig_01
+    - char_pig_05
+    - char_pig_04
+    - char_pig_03
+    - char_pig_02
+    - char_pig_run_05
+    - char_pig_run_02
+    - char_pig_run_07
+    - char_pig_run_01
+    - char_pig_run_04
+    - char_pig_run_06
+    - char_pig_run_03
+    spriteTextureGUIDs:
+    - 335b95934a29d4f6eaf511a787335e8f
+    - 7731c2872413546d592610dbeff888f3
+    - 90037842b7a5843c0940a505ed53b379
+    - e0a8530dc273a4dd69e8b4883f4cf652
+    - e7cddc3fd9f85493e9c8328125360feb
+    - 232150ae1692947c39ba688cf30b0999
+    - 42d32b682bdb24ef880b91edb7593692
+    - 5f4b6cef7d7594cbb87731b995f3a016
+    - 6069e04eb44194b7c9837b5dcdf3716f
+    - c1a567846a9cd41db9d8802aaba2a2f3
+    - cc78ef60fd45143328be9d397d4212b5
+    - f63e2e16241b841d1ace263ecd6988c0
+    spriteTextureTimeStamps:
+    - 1400887009.47429
+    - 1400887009.50736
+    - 1400887009.50436
+    - 1400887009.50035
+    - 1400887009.4773
+    - 1400887009.52238
+    - 1400887009.51337
+    - 1400887009.52938
+    - 1400887009.51036
+    - 1400887009.51937
+    - 1400887009.52638
+    - 1400887009.51637
+    managedSpriteCollection: 1
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: MouseAvatarSprites@1x
+    spriteCollectionGUID: 8e8ec1d1ca92a324aadb61cbf8fd8ef0
+    spriteCollectionDataGUID: 6ed9fb345796d234d994e14bd2601f76
+    spriteNames:
+    - char_mouse_02
+    - char_mouse_01
+    - char_mouse_04
+    - char_mouse_05
+    - char_mouse_03
+    - char_mouse_06
+    - char_mouse_run_01
+    - char_mouse_run_06
+    - char_mouse_run_05
+    - char_mouse_run_03
+    - char_mouse_run_07
+    - char_mouse_run_02
+    - char_mouse_run_04
+    spriteTextureGUIDs:
+    - 1bd33ee96aac740ea871a6ff3475ad76
+    - 7d609e71b8171493385b9a30795bbd82
+    - 803350327eec642bba9e86d65e336946
+    - 82b877aec8072412483b7414b43e04f8
+    - 971efff102ef9484a91732f665c2bd2a
+    - a38b7346fc0e1454397e3e8224fb5721
+    - 0da7b1e7334bf41b9bedcb2cd92f935e
+    - 3e2e8ec94a83b433987f2c708c3e0f59
+    - 54ee11fd289c44ef09fc1cc10b244ba2
+    - 658759966796a45bd856bde17d77188e
+    - 98265f70d87854c7c826de1049152e0b
+    - e492c8f1692e54b6db4d3694c4825c36
+    - f69acaa64a88b42168c2ab82f110da61
+    spriteTextureTimeStamps:
+    - 1400887009.41695
+    - 1400887009.41295
+    - 1400887009.42296
+    - 1400887009.42525
+    - 1400887009.41895
+    - 1400887009.42825
+    - 1400887009.45128
+    - 1400887009.46629
+    - 1400887009.46329
+    - 1400887009.45828
+    - 1400887009.46929
+    - 1400887009.45528
+    - 1400887009.46028
+    managedSpriteCollection: 1
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: MouseAvatarSprites@2x
+    spriteCollectionGUID: 1eca59772828d244894018ef89bdafc1
+    spriteCollectionDataGUID: 4286e8d71c8361847a05b1df37a01ccb
+    spriteNames:
+    - char_mouse_02
+    - char_mouse_01
+    - char_mouse_04
+    - char_mouse_05
+    - char_mouse_03
+    - char_mouse_06
+    - char_mouse_run_01
+    - char_mouse_run_06
+    - char_mouse_run_05
+    - char_mouse_run_03
+    - char_mouse_run_07
+    - char_mouse_run_02
+    - char_mouse_run_04
+    spriteTextureGUIDs:
+    - 1bd33ee96aac740ea871a6ff3475ad76
+    - 7d609e71b8171493385b9a30795bbd82
+    - 803350327eec642bba9e86d65e336946
+    - 82b877aec8072412483b7414b43e04f8
+    - 971efff102ef9484a91732f665c2bd2a
+    - a38b7346fc0e1454397e3e8224fb5721
+    - 0da7b1e7334bf41b9bedcb2cd92f935e
+    - 3e2e8ec94a83b433987f2c708c3e0f59
+    - 54ee11fd289c44ef09fc1cc10b244ba2
+    - 658759966796a45bd856bde17d77188e
+    - 98265f70d87854c7c826de1049152e0b
+    - e492c8f1692e54b6db4d3694c4825c36
+    - f69acaa64a88b42168c2ab82f110da61
+    spriteTextureTimeStamps:
+    - 1400887009.41695
+    - 1400887009.41295
+    - 1400887009.42296
+    - 1400887009.42525
+    - 1400887009.41895
+    - 1400887009.42825
+    - 1400887009.45128
+    - 1400887009.46629
+    - 1400887009.46329
+    - 1400887009.45828
+    - 1400887009.46929
+    - 1400887009.45528
+    - 1400887009.46028
+    managedSpriteCollection: 1
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: DistrictSpriteCollection@1x
+    spriteCollectionGUID: 97abc04b89a2ba64791e0d4c231d56a5
+    spriteCollectionDataGUID: 409ee7d2556864f4db6bcea2fe38f741
     spriteNames:
     - b3
     - b1
@@ -747,32 +1035,154 @@ MonoBehaviour:
     - 1400887009.67001
     - 1398791684.96373
     - 1398791684.95272
-    managedSpriteCollection: 0
+    managedSpriteCollection: 1
     loadable: 0
     assetName: 
     version: 3
-  - name: BackgroundSprites
-    spriteCollectionGUID: 153767dbba7c44cdb9a65db7f1cde8bf
-    spriteCollectionDataGUID: 142a26ee432cd4928afe72b1d69fb2c1
+  - name: DistrictSpriteCollection@2x
+    spriteCollectionGUID: 94f7c3d577d8e444a884d8717c266ef4
+    spriteCollectionDataGUID: 86cd6eeddea2b2b438fee9977522db60
     spriteNames:
-    - bg-beach
-    - TitleBG
-    - bg-water
+    - b3
+    - b1
+    - t3
+    - t2
+    - b6
+    - b2
+    - t5
+    - b4
+    - t4
+    - t1
+    - b5
     spriteTextureGUIDs:
-    - a6608b8281bbf46028bb2008fd04ee55
-    - a103834d62ff4466a9efd192df49e5b1
-    - a6eeb971eca8b45d4aab6dc762edfe95
+    - 549f269517ff34a72aa791240d643185
+    - 0c9d7ec5663d4420186d9840e8d9e730
+    - fdd82b665b4c9484181489d39235d404
+    - 50668db78d9064f858639aab172e87a9
+    - 7da19298a9be14408824b89100248bf0
+    - 797ae6a9d569448489ff9d02896c5c32
+    - d117f54b573e844c19a0452a31071a1c
+    - 6be7cecb29f714445be41307785a6421
+    - b241858ccb8b145e7a20539c747ea2bf
+    - 7d277fbc696d94c81933100c0edee461
+    - 1e101e1e71d9a4560a74d96d39d15094
     spriteTextureTimeStamps:
-    - 1400272899
-    - 1398685397
-    - 1400272885
-    managedSpriteCollection: 0
+    - 1400887009.663
+    - 1398791684.82621
+    - 1400887009.668
+    - 1400887009.667
+    - 1400887009.666
+    - 1400887009.661
+    - 1398791684.98304
+    - 1400887009.664
+    - 1400887009.67001
+    - 1398791684.96373
+    - 1398791684.95272
+    managedSpriteCollection: 1
     loadable: 0
     assetName: 
     version: 3
-  - name: CarabaoSprites
-    spriteCollectionGUID: 20df62d4f0d954364a68d117f552a761
-    spriteCollectionDataGUID: eda3da9d8e1e2418d89769f677ec169c
+  - name: CrocAvatarSprites@1x
+    spriteCollectionGUID: b05b56d771b3f484aaf1edf408881d4f
+    spriteCollectionDataGUID: 8e6e0fd7a99392441b0dd73b415e865c
+    spriteNames:
+    - char_croc_04
+    - char_croc_01
+    - char_croc_03
+    - char_croc_06
+    - char_croc_05
+    - char_croc_02
+    - char_croc_run_03
+    - char_croc_run_01
+    - char_croc_run_05
+    - char_croc_run_04
+    - char_croc_run_02
+    - char_croc_run_06
+    - char_croc_run_07
+    spriteTextureGUIDs:
+    - 0e1eb5a6cf95d416d96d6451b584a85f
+    - 4ef3ea4b91e1243338c422304fc69d83
+    - 5aaa9be662b2940cdb5a8c13e83bae20
+    - 66db768d98994413f98c5508d558d027
+    - 709c6553cece44180b178e674990a7a6
+    - ba3625a64d40a4753b6c968290a5f786
+    - 0f06bb8e998594137bdcdf84fbfbcb2f
+    - 373f665ff238b4c398c13beb4c43b290
+    - 397abf271015c4e218e53adf48e690e7
+    - 462a6d6fecb894af7bf349abf7c4435b
+    - 4d231f302de3842368cf7f0ebd252b9d
+    - 7818fec3a9d7e47f79b36924b6f5c427
+    - c42c4f6dda8ed4e0eadcd3a1aaf3b8dd
+    spriteTextureTimeStamps:
+    - 1400887009.3609
+    - 1400887009.3539
+    - 1400887009.3589
+    - 1400887009.36691
+    - 1400887009.36391
+    - 1400887009.3559
+    - 1400887009.37492
+    - 1400887009.36891
+    - 1400887009.40294
+    - 1400887009.37692
+    - 1400887009.37191
+    - 1400887009.40594
+    - 1400887009.40794
+    managedSpriteCollection: 1
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: CrocAvatarSprites@2x
+    spriteCollectionGUID: c3d344fa6e3fe7946bf62f12ad564db9
+    spriteCollectionDataGUID: eab092c168e3548449efb055fe153e50
+    spriteNames:
+    - char_croc_04
+    - char_croc_01
+    - char_croc_03
+    - char_croc_06
+    - char_croc_05
+    - char_croc_02
+    - char_croc_run_03
+    - char_croc_run_01
+    - char_croc_run_05
+    - char_croc_run_04
+    - char_croc_run_02
+    - char_croc_run_06
+    - char_croc_run_07
+    spriteTextureGUIDs:
+    - 0e1eb5a6cf95d416d96d6451b584a85f
+    - 4ef3ea4b91e1243338c422304fc69d83
+    - 5aaa9be662b2940cdb5a8c13e83bae20
+    - 66db768d98994413f98c5508d558d027
+    - 709c6553cece44180b178e674990a7a6
+    - ba3625a64d40a4753b6c968290a5f786
+    - 0f06bb8e998594137bdcdf84fbfbcb2f
+    - 373f665ff238b4c398c13beb4c43b290
+    - 397abf271015c4e218e53adf48e690e7
+    - 462a6d6fecb894af7bf349abf7c4435b
+    - 4d231f302de3842368cf7f0ebd252b9d
+    - 7818fec3a9d7e47f79b36924b6f5c427
+    - c42c4f6dda8ed4e0eadcd3a1aaf3b8dd
+    spriteTextureTimeStamps:
+    - 1400887009.3609
+    - 1400887009.3539
+    - 1400887009.3589
+    - 1400887009.36691
+    - 1400887009.36391
+    - 1400887009.3559
+    - 1400887009.37492
+    - 1400887009.36891
+    - 1400887009.40294
+    - 1400887009.37692
+    - 1400887009.37191
+    - 1400887009.40594
+    - 1400887009.40794
+    managedSpriteCollection: 1
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: CarabaoSprites@1x
+    spriteCollectionGUID: 9b2fa006ce695d1479691897336f91b3
+    spriteCollectionDataGUID: 3ac1b18389d7a194788369210f6abba5
     spriteNames:
     - sortie-kalabaw_06
     - sortie-kalabaw_07
@@ -816,171 +1226,135 @@ MonoBehaviour:
     - e10db3ce6ffdf431781af2154f74d90d
     - fbf04a3b7e24244768e944f89ddb6326
     spriteTextureTimeStamps:
-    - 1398685397
-    - 1398685397
-    - 1398685397
-    - 1398685397
-    - 1398685397
-    - 1398685397
-    - 1398685397
-    - 1398685397
-    - 1398685397
-    - 1398685397
-    - 1398685397
-    - 1398685397
-    - 1398685397
-    - 1398685397
-    - 1398685397
-    - 1398685397
-    - 1398685397
-    - 1398685397
-    - 1398685397
-    - 1398685397
-    managedSpriteCollection: 0
+    - 1398791678.66951
+    - 1398791679.29538
+    - 1398791683.47866
+    - 1398791684.5137
+    - 1398791684.21087
+    - 1398791684.43736
+    - 1398791683.48366
+    - 1398791683.48867
+    - 1398791684.20787
+    - 1398791684.5087
+    - 1398791684.2457
+    - 1398791678.61546
+    - 1398791684.53476
+    - 1398791683.7371
+    - 1398791678.66651
+    - 1398791678.61246
+    - 1398791678.6575
+    - 1398791683.74009
+    - 1398791678.62147
+    - 1398791679.29938
+    managedSpriteCollection: 1
     loadable: 0
     assetName: 
     version: 3
-  - name: MouseAvatarSprites
-    spriteCollectionGUID: 9a021f7443d3342729171e6c31b2aa68
-    spriteCollectionDataGUID: 38539c5debc984f6f9816f72af60ede9
+  - name: CarabaoSprites@2x
+    spriteCollectionGUID: 51b86dc6ce7621d4e828271860615c81
+    spriteCollectionDataGUID: 4135cdf201df3d54ab3aa59da83aa3b0
     spriteNames:
-    - char_mouse_02
-    - char_mouse_01
-    - char_mouse_04
-    - char_mouse_05
-    - char_mouse_03
-    - char_mouse_06
-    - char_mouse_run_01
-    - char_mouse_run_06
-    - char_mouse_run_05
-    - char_mouse_run_03
-    - char_mouse_run_07
-    - char_mouse_run_02
-    - char_mouse_run_04
+    - sortie-kalabaw_06
+    - sortie-kalabaw_07
+    - sortie-kalabaw_09
+    - sortie-kalabaw_19
+    - sortie-kalabaw_15
+    - sortie-kalabaw_17
+    - sortie-kalabaw_10
+    - sortie-kalabaw_11
+    - sortie-kalabaw_14
+    - sortie-kalabaw_18
+    - sortie-kalabaw_16
+    - sortie-kalabaw_02
+    - sortie-kalabaw_20
+    - sortie-kalabaw_12
+    - sortie-kalabaw_05
+    - sortie-kalabaw_01
+    - sortie-kalabaw_04
+    - sortie-kalabaw_13
+    - sortie-kalabaw_03
+    - sortie-kalabaw_08
     spriteTextureGUIDs:
-    - 1bd33ee96aac740ea871a6ff3475ad76
-    - 7d609e71b8171493385b9a30795bbd82
-    - 803350327eec642bba9e86d65e336946
-    - 82b877aec8072412483b7414b43e04f8
-    - 971efff102ef9484a91732f665c2bd2a
-    - a38b7346fc0e1454397e3e8224fb5721
-    - 0da7b1e7334bf41b9bedcb2cd92f935e
-    - 3e2e8ec94a83b433987f2c708c3e0f59
-    - 54ee11fd289c44ef09fc1cc10b244ba2
-    - 658759966796a45bd856bde17d77188e
-    - 98265f70d87854c7c826de1049152e0b
-    - e492c8f1692e54b6db4d3694c4825c36
-    - f69acaa64a88b42168c2ab82f110da61
+    - 1018ce5a300d94a5c800e92b11863586
+    - 2bfb7103a5235400b8adaf3d8453053f
+    - 3265a93e018e14e31b3934d2c1a4a73f
+    - 331f0a6128d8849ee905bba19c691357
+    - 3892ba08e17cc45408321050952d2377
+    - 3e726bb2cd9bb48368c73b3779ac316b
+    - 4d492e9143eb74d3b8c35db5e22dc736
+    - 5b0fee51b9bc34f278ae5e6aaab116ac
+    - 61166dd3479e0430984eaeca98d7e3db
+    - 87320dd9d72044021a1c762c38f77944
+    - 8c994b084f1be4bafa37426c07d24dc8
+    - 9a708bad7b42540d1abfead0157fa159
+    - 9b418b4f083eb4b5c851f82aa4c65892
+    - a6e7b0be8742b48958345e99551684a0
+    - b6a30e48da3454bc2890fcd97fc3a238
+    - c0689d6403937440585098f2da9ef942
+    - c7aa61ba0440544958e56d9936901c58
+    - e07fbc14839cf434c98e9259d6386264
+    - e10db3ce6ffdf431781af2154f74d90d
+    - fbf04a3b7e24244768e944f89ddb6326
     spriteTextureTimeStamps:
-    - 1400080873
-    - 1400080873
-    - 1400080874
-    - 1400080874
-    - 1400080874
-    - 1400080874
-    - 1400080926
-    - 1400080928
-    - 1400080928
-    - 1400080927
-    - 1400080928
-    - 1400080927
-    - 1400080927
-    managedSpriteCollection: 0
+    - 1398791678.66951
+    - 1398791679.29538
+    - 1398791683.47866
+    - 1398791684.5137
+    - 1398791684.21087
+    - 1398791684.43736
+    - 1398791683.48366
+    - 1398791683.48867
+    - 1398791684.20787
+    - 1398791684.5087
+    - 1398791684.2457
+    - 1398791678.61546
+    - 1398791684.53476
+    - 1398791683.7371
+    - 1398791678.66651
+    - 1398791678.61246
+    - 1398791678.6575
+    - 1398791683.74009
+    - 1398791678.62147
+    - 1398791679.29938
+    managedSpriteCollection: 1
     loadable: 0
     assetName: 
     version: 3
-  - name: CrocAvatarSprites
-    spriteCollectionGUID: 6b9fc09e1eeb24673be9c6a3778e311b
-    spriteCollectionDataGUID: a7ab71a8f45204df087b9fd305929e3c
+  - name: BackgroundSprites@1x
+    spriteCollectionGUID: e3188f77071266e43b69b2135cd7306b
+    spriteCollectionDataGUID: bf156a3fb1ef77c428e1df1ea6477d41
     spriteNames:
-    - char_croc_04
-    - char_croc_01
-    - char_croc_03
-    - char_croc_06
-    - char_croc_05
-    - char_croc_02
-    - char_croc_run_03
-    - char_croc_run_01
-    - char_croc_run_05
-    - char_croc_run_04
-    - char_croc_run_02
-    - char_croc_run_06
-    - char_croc_run_07
+    - bg-beach
+    - TitleBG
+    - bg-water
     spriteTextureGUIDs:
-    - 0e1eb5a6cf95d416d96d6451b584a85f
-    - 4ef3ea4b91e1243338c422304fc69d83
-    - 5aaa9be662b2940cdb5a8c13e83bae20
-    - 66db768d98994413f98c5508d558d027
-    - 709c6553cece44180b178e674990a7a6
-    - ba3625a64d40a4753b6c968290a5f786
-    - 0f06bb8e998594137bdcdf84fbfbcb2f
-    - 373f665ff238b4c398c13beb4c43b290
-    - 397abf271015c4e218e53adf48e690e7
-    - 462a6d6fecb894af7bf349abf7c4435b
-    - 4d231f302de3842368cf7f0ebd252b9d
-    - 7818fec3a9d7e47f79b36924b6f5c427
-    - c42c4f6dda8ed4e0eadcd3a1aaf3b8dd
+    - a6608b8281bbf46028bb2008fd04ee55
+    - a103834d62ff4466a9efd192df49e5b1
+    - a6eeb971eca8b45d4aab6dc762edfe95
     spriteTextureTimeStamps:
-    - 1400080769
-    - 1400080767
-    - 1400080768
-    - 1400080770
-    - 1400080769
-    - 1400080767
-    - 1400080833
-    - 1400080832
-    - 1400080834
-    - 1400080833
-    - 1400080833
-    - 1400080834
-    - 1400080834
-    managedSpriteCollection: 0
+    - 1400887009.56546
+    - 1400887009.8407
+    - 1400887009.57247
+    managedSpriteCollection: 1
     loadable: 0
     assetName: 
     version: 3
-  - name: PigAvatarSprites
-    spriteCollectionGUID: 639ee59dbcbc54c7d9e8dd6b14402d65
-    spriteCollectionDataGUID: 32880304820de4460a5c872a1e8ba38c
+  - name: BackgroundSprites@2x
+    spriteCollectionGUID: e93cb7acf28f3f742a147a5e136ec6d9
+    spriteCollectionDataGUID: 962334b29bc25ed4ba4a6c24f583e315
     spriteNames:
-    - char_pig_01
-    - char_pig_05
-    - char_pig_04
-    - char_pig_03
-    - char_pig_02
-    - char_pig_run_05
-    - char_pig_run_02
-    - char_pig_run_07
-    - char_pig_run_01
-    - char_pig_run_04
-    - char_pig_run_06
-    - char_pig_run_03
+    - bg-beach
+    - TitleBG
+    - bg-water
     spriteTextureGUIDs:
-    - 335b95934a29d4f6eaf511a787335e8f
-    - 7731c2872413546d592610dbeff888f3
-    - 90037842b7a5843c0940a505ed53b379
-    - e0a8530dc273a4dd69e8b4883f4cf652
-    - e7cddc3fd9f85493e9c8328125360feb
-    - 232150ae1692947c39ba688cf30b0999
-    - 42d32b682bdb24ef880b91edb7593692
-    - 5f4b6cef7d7594cbb87731b995f3a016
-    - 6069e04eb44194b7c9837b5dcdf3716f
-    - c1a567846a9cd41db9d8802aaba2a2f3
-    - cc78ef60fd45143328be9d397d4212b5
-    - f63e2e16241b841d1ace263ecd6988c0
+    - a6608b8281bbf46028bb2008fd04ee55
+    - a103834d62ff4466a9efd192df49e5b1
+    - a6eeb971eca8b45d4aab6dc762edfe95
     spriteTextureTimeStamps:
-    - 1400080961
-    - 1400080962
-    - 1400080961
-    - 1400080961
-    - 1400080961
-    - 1400081077
-    - 1400081076
-    - 1400081077
-    - 1400081076
-    - 1400081077
-    - 1400081077
-    - 1400081076
-    managedSpriteCollection: 0
+    - 1400887009.56546
+    - 1400887009.8407
+    - 1400887009.57247
+    managedSpriteCollection: 1
     loadable: 0
     assetName: 
     version: 3

@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72fb5480ea3af70458d43df8464b132e, type: 3}
+  m_Name: tk2dSystem
+  m_EditorClassIdentifier: 
+  allResourceEntries:
+  - resourceGUID: d9fb2841bb267da45a1af539cf23b875
+    assetName: ' '
+    assetGUID: a71443cc32bfac64ebb28018a35f16f3
+  - resourceGUID: 8a9d895f24b9cde4b99978b0b99b87e5
+    assetName: ' '
+    assetGUID: 59e357a90b9489042872e6fbf81d4114
+  - resourceGUID: 5a153b7983c4d2349ab0811dfac95771
+    assetName: ' '
+    assetGUID: 6ed9fb345796d234d994e14bd2601f76
+  - resourceGUID: c736855c8a23f6f42b4d48f0ceb02f92
+    assetName: ' '
+    assetGUID: 4286e8d71c8361847a05b1df37a01ccb
+  - resourceGUID: b37fdfca660e43a4b8c319d9199dd52a
+    assetName: ' '
+    assetGUID: 409ee7d2556864f4db6bcea2fe38f741
+  - resourceGUID: 239d61641691284419bb3bb3e8f9eb24
+    assetName: ' '
+    assetGUID: 86cd6eeddea2b2b438fee9977522db60
+  - resourceGUID: 54faf4b7da98af44ebb5a64f05e5d90d
+    assetName: ' '
+    assetGUID: 8e6e0fd7a99392441b0dd73b415e865c
+  - resourceGUID: 8b4a7dc7c9b68894088d2de0cb776fb2
+    assetName: ' '
+    assetGUID: eab092c168e3548449efb055fe153e50
+  - resourceGUID: c10809bf388532e4a9d7c37a93e77415
+    assetName: ' '
+    assetGUID: 3ac1b18389d7a194788369210f6abba5
+  - resourceGUID: af9d75ba691ff9a4cb022e303d5a7cf3
+    assetName: ' '
+    assetGUID: 4135cdf201df3d54ab3aa59da83aa3b0
+  - resourceGUID: 15d00e300c5f6c8498604485fdb305d5
+    assetName: ' '
+    assetGUID: bf156a3fb1ef77c428e1df1ea6477d41
+  - resourceGUID: 20e03130dba612247b8208cf789a1ea3
+    assetName: ' '
+    assetGUID: 962334b29bc25ed4ba4a6c24f583e315

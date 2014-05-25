@@ -1,0 +1,625 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: CrocAvatarSprites@1x
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d546f34a90531a14eaba82a43b05b86b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  materialIdsValid: 1
+  needMaterialInstance: 1
+  spriteDefinitions:
+  - name: char_croc_04
+    boundsData:
+    - {x: 0, y: -.00500001013, z: 0}
+    - {x: .799999952, y: .949999928, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: .799999952, y: .959999979, z: 0}
+    texelSize: {x: .00999999978, y: .00999999978}
+    positions:
+    - {x: -.399999976, y: -.479999989, z: 0}
+    - {x: .399999976, y: -.479999989, z: 0}
+    - {x: -.399999976, y: .469999969, z: 0}
+    - {x: .399999976, y: .469999969, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00390820298, y: .00390820298}
+    - {x: .160154298, y: .00390820298}
+    - {x: .00390820298, y: .189451173}
+    - {x: .160154298, y: .189451173}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 57753b553b335ca47be79235208b99a0, type: 2}
+    materialId: 0
+    sourceTextureGUID: 0e1eb5a6cf95d416d96d6451b584a85f
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: char_croc_01
+    boundsData:
+    - {x: 0, y: -.00500001013, z: 0}
+    - {x: .799999952, y: .949999928, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: .799999952, y: .959999979, z: 0}
+    texelSize: {x: .00999999978, y: .00999999978}
+    positions:
+    - {x: -.399999976, y: -.479999989, z: 0}
+    - {x: .399999976, y: -.479999989, z: 0}
+    - {x: -.399999976, y: .469999969, z: 0}
+    - {x: .399999976, y: .469999969, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00390820298, y: .197267577}
+    - {x: .160154298, y: .197267577}
+    - {x: .00390820298, y: .382810533}
+    - {x: .160154298, y: .382810533}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 57753b553b335ca47be79235208b99a0, type: 2}
+    materialId: 0
+    sourceTextureGUID: 4ef3ea4b91e1243338c422304fc69d83
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: char_croc_03
+    boundsData:
+    - {x: 0, y: -.00500001013, z: 0}
+    - {x: .799999952, y: .949999928, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: .799999952, y: .959999979, z: 0}
+    texelSize: {x: .00999999978, y: .00999999978}
+    positions:
+    - {x: -.399999976, y: -.479999989, z: 0}
+    - {x: .399999976, y: -.479999989, z: 0}
+    - {x: -.399999976, y: .469999969, z: 0}
+    - {x: .399999976, y: .469999969, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00390820298, y: .390626967}
+    - {x: .160154298, y: .390626967}
+    - {x: .00390820298, y: .576169908}
+    - {x: .160154298, y: .576169908}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 57753b553b335ca47be79235208b99a0, type: 2}
+    materialId: 0
+    sourceTextureGUID: 5aaa9be662b2940cdb5a8c13e83bae20
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: char_croc_06
+    boundsData:
+    - {x: 0, y: -.00500001013, z: 0}
+    - {x: .799999952, y: .949999928, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: .799999952, y: .959999979, z: 0}
+    texelSize: {x: .00999999978, y: .00999999978}
+    positions:
+    - {x: -.399999976, y: -.479999989, z: 0}
+    - {x: .399999976, y: -.479999989, z: 0}
+    - {x: -.399999976, y: .469999969, z: 0}
+    - {x: .399999976, y: .469999969, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00390820298, y: .583986342}
+    - {x: .160154298, y: .583986342}
+    - {x: .00390820298, y: .769529283}
+    - {x: .160154298, y: .769529283}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 57753b553b335ca47be79235208b99a0, type: 2}
+    materialId: 0
+    sourceTextureGUID: 66db768d98994413f98c5508d558d027
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: char_croc_05
+    boundsData:
+    - {x: 0, y: -.00500001013, z: 0}
+    - {x: .799999952, y: .949999928, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: .799999952, y: .959999979, z: 0}
+    texelSize: {x: .00999999978, y: .00999999978}
+    positions:
+    - {x: -.399999976, y: -.479999989, z: 0}
+    - {x: .399999976, y: -.479999989, z: 0}
+    - {x: -.399999976, y: .469999969, z: 0}
+    - {x: .399999976, y: .469999969, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00390820298, y: .777345717}
+    - {x: .160154298, y: .777345717}
+    - {x: .00390820298, y: .962888658}
+    - {x: .160154298, y: .962888658}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 57753b553b335ca47be79235208b99a0, type: 2}
+    materialId: 0
+    sourceTextureGUID: 709c6553cece44180b178e674990a7a6
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: char_croc_02
+    boundsData:
+    - {x: 0, y: -.00500001013, z: 0}
+    - {x: .799999952, y: .949999928, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: .799999952, y: .959999979, z: 0}
+    texelSize: {x: .00999999978, y: .00999999978}
+    positions:
+    - {x: -.399999976, y: -.479999989, z: 0}
+    - {x: .399999976, y: -.479999989, z: 0}
+    - {x: -.399999976, y: .469999969, z: 0}
+    - {x: .399999976, y: .469999969, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .167970702, y: .00390820298}
+    - {x: .167970702, y: .160154298}
+    - {x: .353513658, y: .00390820298}
+    - {x: .353513658, y: .160154298}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 57753b553b335ca47be79235208b99a0, type: 2}
+    materialId: 0
+    sourceTextureGUID: ba3625a64d40a4753b6c968290a5f786
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: char_croc_run_03
+    boundsData:
+    - {x: 0, y: -.00500001013, z: 0}
+    - {x: .799999952, y: .949999928, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: .799999952, y: .959999979, z: 0}
+    texelSize: {x: .00999999978, y: .00999999978}
+    positions:
+    - {x: -.399999976, y: -.479999989, z: 0}
+    - {x: .399999976, y: -.479999989, z: 0}
+    - {x: -.399999976, y: .469999969, z: 0}
+    - {x: .399999976, y: .469999969, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .361330092, y: .00390820298}
+    - {x: .361330092, y: .160154298}
+    - {x: .546873033, y: .00390820298}
+    - {x: .546873033, y: .160154298}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 57753b553b335ca47be79235208b99a0, type: 2}
+    materialId: 0
+    sourceTextureGUID: 0f06bb8e998594137bdcdf84fbfbcb2f
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: char_croc_run_01
+    boundsData:
+    - {x: 0, y: -.00500001013, z: 0}
+    - {x: .799999952, y: .949999928, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: .799999952, y: .959999979, z: 0}
+    texelSize: {x: .00999999978, y: .00999999978}
+    positions:
+    - {x: -.399999976, y: -.479999989, z: 0}
+    - {x: .399999976, y: -.479999989, z: 0}
+    - {x: -.399999976, y: .469999969, z: 0}
+    - {x: .399999976, y: .469999969, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .554689467, y: .00390820298}
+    - {x: .554689467, y: .160154298}
+    - {x: .740232408, y: .00390820298}
+    - {x: .740232408, y: .160154298}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 57753b553b335ca47be79235208b99a0, type: 2}
+    materialId: 0
+    sourceTextureGUID: 373f665ff238b4c398c13beb4c43b290
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: char_croc_run_05
+    boundsData:
+    - {x: 0, y: -.00500001013, z: 0}
+    - {x: .799999952, y: .949999928, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: .799999952, y: .959999979, z: 0}
+    texelSize: {x: .00999999978, y: .00999999978}
+    positions:
+    - {x: -.399999976, y: -.479999989, z: 0}
+    - {x: .399999976, y: -.479999989, z: 0}
+    - {x: -.399999976, y: .469999969, z: 0}
+    - {x: .399999976, y: .469999969, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .748048842, y: .00390820298}
+    - {x: .748048842, y: .160154298}
+    - {x: .933591783, y: .00390820298}
+    - {x: .933591783, y: .160154298}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 57753b553b335ca47be79235208b99a0, type: 2}
+    materialId: 0
+    sourceTextureGUID: 397abf271015c4e218e53adf48e690e7
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: char_croc_run_04
+    boundsData:
+    - {x: 0, y: .00499999523, z: 0}
+    - {x: .799999952, y: .949999988, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: .799999952, y: .959999979, z: 0}
+    texelSize: {x: .00999999978, y: .00999999978}
+    positions:
+    - {x: -.399999976, y: -.469999999, z: 0}
+    - {x: .399999976, y: -.469999999, z: 0}
+    - {x: -.399999976, y: .479999989, z: 0}
+    - {x: .399999976, y: .479999989, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .167970702, y: .167970702}
+    - {x: .324216783, y: .167970702}
+    - {x: .167970702, y: .353513658}
+    - {x: .324216783, y: .353513658}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 57753b553b335ca47be79235208b99a0, type: 2}
+    materialId: 0
+    sourceTextureGUID: 462a6d6fecb894af7bf349abf7c4435b
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: char_croc_run_02
+    boundsData:
+    - {x: 0, y: -.00500001013, z: 0}
+    - {x: .799999952, y: .949999928, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: .799999952, y: .959999979, z: 0}
+    texelSize: {x: .00999999978, y: .00999999978}
+    positions:
+    - {x: -.399999976, y: -.479999989, z: 0}
+    - {x: .399999976, y: -.479999989, z: 0}
+    - {x: -.399999976, y: .469999969, z: 0}
+    - {x: .399999976, y: .469999969, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .167970702, y: .361330092}
+    - {x: .324216783, y: .361330092}
+    - {x: .167970702, y: .546873033}
+    - {x: .324216783, y: .546873033}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 57753b553b335ca47be79235208b99a0, type: 2}
+    materialId: 0
+    sourceTextureGUID: 4d231f302de3842368cf7f0ebd252b9d
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: char_croc_run_06
+    boundsData:
+    - {x: 0, y: .00499999523, z: 0}
+    - {x: .799999952, y: .929999948, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: .799999952, y: .959999979, z: 0}
+    texelSize: {x: .00999999978, y: .00999999978}
+    positions:
+    - {x: -.399999976, y: -.459999979, z: 0}
+    - {x: .399999976, y: -.459999979, z: 0}
+    - {x: -.399999976, y: .469999969, z: 0}
+    - {x: .399999976, y: .469999969, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .167970702, y: .554689467}
+    - {x: .324216783, y: .554689467}
+    - {x: .167970702, y: .736326158}
+    - {x: .324216783, y: .736326158}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 57753b553b335ca47be79235208b99a0, type: 2}
+    materialId: 0
+    sourceTextureGUID: 7818fec3a9d7e47f79b36924b6f5c427
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  - name: char_croc_run_07
+    boundsData:
+    - {x: -.0299999863, y: .025000006, z: 0}
+    - {x: .74000001, y: .909999967, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: .799999952, y: .959999979, z: 0}
+    texelSize: {x: .00999999978, y: .00999999978}
+    positions:
+    - {x: -.399999976, y: -.429999977, z: 0}
+    - {x: .340000004, y: -.429999977, z: 0}
+    - {x: -.399999976, y: .479999989, z: 0}
+    - {x: .340000004, y: .479999989, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .167970702, y: .744142592}
+    - {x: .312498033, y: .744142592}
+    - {x: .167970702, y: .921873033}
+    - {x: .312498033, y: .921873033}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 57753b553b335ca47be79235208b99a0, type: 2}
+    materialId: 0
+    sourceTextureGUID: c42c4f6dda8ed4e0eadcd3a1aaf3b8dd
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    physicsEngine: 0
+    colliderType: 0
+    customColliders: []
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    polygonCollider2D: []
+    edgeCollider2D: []
+    attachPoints: []
+  premultipliedAlpha: 0
+  material: {fileID: 0}
+  materials:
+  - {fileID: 2100000, guid: 57753b553b335ca47be79235208b99a0, type: 2}
+  textures:
+  - {fileID: 2800000, guid: a686fede2dd53564981c93f80d97afd1, type: 3}
+  pngTextures: []
+  materialPngTextureId: 00000000
+  textureFilterMode: 1
+  textureMipMaps: 0
+  allowMultipleAtlases: 0
+  spriteCollectionGUID: b05b56d771b3f484aaf1edf408881d4f
+  spriteCollectionName: CrocAvatarSprites@1x
+  assetName: 
+  loadable: 0
+  invOrthoSize: 2
+  halfTargetHeight: 50
+  buildKey: 1065952028
+  dataGuid: 8e6e0fd7a99392441b0dd73b415e865c
+  managedSpriteCollection: 1
+  hasPlatformData: 0
+  spriteCollectionPlatforms: []
+  spriteCollectionPlatformGUIDs: []
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1
