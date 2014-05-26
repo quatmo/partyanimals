@@ -201,6 +201,62 @@ Transform:
   m_Children:
   - {fileID: 1237737847}
   m_Father: {fileID: 0}
+--- !u!1001 &536177192
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 6f447873ab90f6941a3cd39788de58ef, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 6f447873ab90f6941a3cd39788de58ef, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 6f447873ab90f6941a3cd39788de58ef, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 6f447873ab90f6941a3cd39788de58ef, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 6f447873ab90f6941a3cd39788de58ef, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 6f447873ab90f6941a3cd39788de58ef, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 6f447873ab90f6941a3cd39788de58ef, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 6f447873ab90f6941a3cd39788de58ef, type: 2}
+      propertyPath: theTexture
+      value: 
+      objectReference: {fileID: 2800000, guid: ed6eace5351574075b607cc35ce3ba92, type: 3}
+    - target: {fileID: 11400000, guid: 6f447873ab90f6941a3cd39788de58ef, type: 2}
+      propertyPath: fadeColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 6f447873ab90f6941a3cd39788de58ef, type: 2}
+      propertyPath: fadeColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 6f447873ab90f6941a3cd39788de58ef, type: 2}
+      propertyPath: fadeColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 6f447873ab90f6941a3cd39788de58ef, type: 2}
+  m_RootGameObject: {fileID: 2075625383}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
 --- !u!1 &541424778
 GameObject:
   m_ObjectHideFlags: 0
@@ -736,6 +792,48 @@ Transform:
   m_GameObject: {fileID: 1341568261}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!1 &2075625383
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: 6f447873ab90f6941a3cd39788de58ef, type: 2}
+  m_PrefabInternal: {fileID: 536177192}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2075625385}
+  - 114: {fileID: 2075625384}
+  m_Layer: 8
+  m_Name: Fader Prefab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2075625384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 6f447873ab90f6941a3cd39788de58ef,
+    type: 2}
+  m_PrefabInternal: {fileID: 536177192}
+  m_GameObject: {fileID: 2075625383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ce39d95e74e5b14ba6e8ed09c49dc33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fadeColor: {r: 0, g: 0, b: 0, a: 0}
+  time: 3
+  theTexture: {fileID: 2800000, guid: ed6eace5351574075b607cc35ce3ba92, type: 3}
+--- !u!4 &2075625385
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: 6f447873ab90f6941a3cd39788de58ef, type: 2}
+  m_PrefabInternal: {fileID: 536177192}
+  m_GameObject: {fileID: 2075625383}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
